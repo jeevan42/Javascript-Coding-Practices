@@ -11,11 +11,13 @@ const getMin = (arr) => {
     })
 }
 
-const getMax = (arr) => {
-    return arr.reduce((pre, cur) => {
-        return pre > cur ? pre : cur;
-    })
-}
+// const getMax = (arr) => {
+//     return arr.reduce((pre, cur) => {
+//         return pre > cur ? pre : cur;
+//     })
+// }
+
+const getMax = (arr) => arr.reduce((pre, cur) => pre > cur ? pre : cur)
 
 console.log(`Min is :`, getMin(array));
 console.log(`Max is :`, getMax(array));
