@@ -28,10 +28,17 @@ const mixedArray = [
 
 const main = (array) => {
     return array.reduce((acc, el) => {
-        const type = typeof el;
+        const type = typeof el; // Get the data type of the current element
+
+        // Initialize the array for this type if it doesn't exist, then push the element
+        // (acc[type] = acc[type] || []) does:
+        // 1. If acc[type] already exists, use it.
+        // 2. If not, initialize it as an empty array [] and assign it to acc[type].
+        // Then .push(el) adds the current element to that array.
         (acc[type] = acc[type] || []).push(el);
-        return acc;
-    }, {}); // It returns a plain object,
+
+        return acc; // Return the updated accumulator for the next iteration
+    }, {}); // Initial value of accumulator is an empty object
 };
 
 // Solution No. 02
