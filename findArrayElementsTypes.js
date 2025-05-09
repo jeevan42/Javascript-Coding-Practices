@@ -24,27 +24,66 @@ const mixedArray = [
     NaN                       // number (special case)
 ];
 
-
+// Solution No. 01
 
 const main = (array) => {
-    let res = [];
-    for (let i = 0; i < array.length; i++) {
-        const el = array[i];
-        let typeOfEl = typeof el;
-        let filteredObj = res.filter((val) => val && val.hasOwnProperty(typeOfEl));
-        if (!filteredObj.length) {
-            let obj = { [typeOfEl]: [el] }
-            res.push(obj);
-        } else {
-            res.map((val) => {
-                if (val && val.hasOwnProperty(typeOfEl)) {
-                    val?.[typeOfEl].push(el)
-                }
-            })
-        }
-    };
-    return res;
+    return array.reduce((acc, el) => {
+        const type = typeof el;
+        (acc[type] = acc[type] || []).push(el);
+        return acc;
+    }, {}); // It returns a plain object,
 };
+
+// Solution No. 02
+
+// const main = (array) => {
+//     return array.reduce((acc, curr) => {
+//         const type = typeof curr;
+//         const found = acc.find(obj => obj.hasOwnProperty(type));
+//         if (found) {
+//             found[type].push(curr);
+//         } else {
+//             acc.push({ [type]: [curr] });
+//         }
+//         return acc;
+//     }, []);
+// };
+
+// Solution No. 03
+
+// const main = (array) => {
+//     const result = array.reduce((acc, curr) => {
+//         const type = typeof curr;
+//         acc[type] = acc[type] || [];
+//         acc[type].push(curr);
+//         return acc;
+//     }, {});
+
+//     return Object.entries(result).map(([key, value]) => ({ [key]: value })); // converts that plain object into your desired array of objects format:
+// };
+
+
+// Solution No. 04
+
+// const main = (array) => {
+//     let res = [];
+//     for (let i = 0; i < array.length; i++) {
+//         const el = array[i];
+//         let typeOfEl = typeof el;
+//         let filteredObj = res.filter((val) => val && val.hasOwnProperty(typeOfEl));
+//         if (!filteredObj.length) {
+//             let obj = { [typeOfEl]: [el] }
+//             res.push(obj);
+//         } else {
+//             res.map((val) => {
+//                 if (val && val.hasOwnProperty(typeOfEl)) {
+//                     val?.[typeOfEl].push(el)
+//                 }
+//             })
+//         }
+//     };
+//     return res;
+// };
 
 
 console.log(`main fn output is : `, main(mixedArray))
