@@ -1,0 +1,22 @@
+{
+  "name": "javascript-coding-practices",
+  "version": "1.0.0",
+  "description": "javascript-coding-practices ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeevan42/Javascript-Coding-Practices.git"
+  },
+  "author": "jeevan42",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeevan42/Javascript-Coding-Practices/issues"
+  },
+  "homepage": "https://github.com/jeevan42/Javascript-Coding-Practices#readme",
+  "dependencies": {
+    "mongoose": "^8.15.0"
+  }
+}
