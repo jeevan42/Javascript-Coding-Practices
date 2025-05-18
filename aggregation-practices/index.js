@@ -104,7 +104,55 @@ const calculateTotalOrderAmountForEachOrder = async () => {
     }
 };
 
-calculateTotalOrderAmountForEachOrder();
+// calculateTotalOrderAmountForEachOrder();
 
 
-// 🎯 Task 3: Find the top 5 users who spent the most money (sum of total order amounts).
+// 🎯 Task 3: Find the top 5 users who spent the most money (sum of total order amounts)
+
+const findTopFiveUsersWhoSpentMostMoneyOnOrders = async () => {
+    try {
+        const pipeline = [
+            // Step 1: Flatten the products array — one document per product
+            { $unwind: "$products" },
+
+            // Step 2: Calculate total amount (price × quantity) for each product
+            {
+                $project: {
+                    user_id: 1, // We need this for grouping later
+                    total_amount: {
+                        $multiply: ["$products.quantity", "$products.price"]
+                    }
+                }
+            },
+
+            // Step 3: Group by user_id and sum all product totals for each user
+            {
+                $group: {
+                    _id: "$user_id", // Grouping per user
+                    total_order_amount: { $sum: "$total_amount" }
+                }
+            },
+
+            // Step 4: Sort users by total_order_amount in descending order
+            { $sort: { total_order_amount: -1 } },
+
+            // Step 5: Limit to top 5 spenders
+            { $limit: 5 }
+        ];
+
+        // Step 6: Run the aggregation
+        const aggregatedData = await Order.aggregate(pipeline);
+
+        // Step 7: Log the top spenders
+        console.log("✅ Top 5 users by spending:\n", {
+            orders: aggregatedData,
+            total_users: aggregatedData.length
+        });
+
+    } catch (error) {
+        console.error("❌ Error during aggregation:", error);
+    }
+};
+
+findTopFiveUsersWhoSpentMostMoneyOnOrders();
+
