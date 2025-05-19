@@ -1,0 +1,22 @@
+[
+  {
+    "_id": { "$oid": "662e8886f1a4c24d8c0c1231" },
+    "name": "Jeevan",
+    "email": "jeevan@email.com"
+  },
+  {
+    "_id": { "$oid": "662e8886f1a4c24d8c0c1232" },
+    "name": "Rahul",
+    "email": "rahul@email.com"
+  },
+  {
+    "_id": { "$oid": "662e8886f1a4c24d8c0c1233" },
+    "name": "Priya",
+    "email": "priya@email.com"
+  },
+  {
+    "_id": { "$oid": "662e8886f1a4c24d8c0c1234" },
+    "name": "Anjali",
+    "email": "anjali@email.com"
+  }
+]
