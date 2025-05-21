@@ -150,3 +150,74 @@ export const findTopFiveUsersWhoSpentMostMoneyOnOrders = async () => {
 };
 
 // findTopFiveUsersWhoSpentMostMoneyOnOrders();
+
+
+// 🔹 Task 4: $lookup to join orders with users and list user name + total spend
+// ✅ Goal:
+// Get output like:
+
+// [
+//   {
+//     _id: ObjectId("..."),
+//     name: "Jeevan",
+//     total_spend: 2500
+//   },
+//   ...
+// ]
+
+
+export const findOutUsersNameAndTotalSpentOnDeliveredOrders = async () => {
+    try {
+        const pipeline = [
+            {
+                $match: { status: 'delivered' }
+            },
+            {
+                $unwind: "$products"
+            },
+            {
+                $addFields: {
+                    userObjectId: { $toObjectId: "$user_id" }
+                }
+            },
+            {
+                $group: {
+                    _id: "$userObjectId",
+                    total_spend: {
+                        $sum: { $multiply: ["$products.quantity", "$products.price"] }
+                    }
+                }
+            },
+            {
+                $lookup: {
+                    from: "users",           // The "users" collection you want to join with
+                    localField: "_id",       // The field in the current collection (the _id field from the $group stage)
+                    foreignField: "_id",     // The field in the "users" collection to match against
+                    as: "user"               // The output array field where matched documents will be stored
+                }
+            },
+            {
+                $unwind: "$user"
+            },
+            {
+                $project: {
+                    _id: 0,
+                    user_id: "$_id",
+                    name: "$user.name",
+                    total_spend: 1
+                }
+            }
+        ];
+
+        const aggregatedData = await Order.aggregate(pipeline)
+        console.log("✅ Users with name and their total spending:\n", {
+            data: aggregatedData,
+            length: aggregatedData.length
+        });
+    } catch (error) {
+        console.log(`error`, error)
+    }
+
+}
+
+// findOutUsersNameAndTotalSpentOnDeliveredOrders()
