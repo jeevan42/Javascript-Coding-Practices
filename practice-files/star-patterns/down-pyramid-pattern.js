@@ -1,4 +1,4 @@
-const dowmPyramidPattern = (n) => {
+const downPyramidPattern = (n) => {
     for (let i = n; i >= 1; i--) {
        let stars = "";
        for (let j = 1; j <= n - i; j++) {
@@ -11,4 +11,4 @@ const dowmPyramidPattern = (n) => {
     }
 }
 
-dowmPyramidPattern(5);
+downPyramidPattern(5);
