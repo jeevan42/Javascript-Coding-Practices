@@ -19,4 +19,4 @@ function printLeftAngledTriangle(n) {
     console.log(stars)
   }
 }
-printLeftAngledTriangle(5);
+printLeftAngledTriangle(4);
