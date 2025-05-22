@@ -15,6 +15,7 @@
 
 let obj = { a: 4, b: { c: 5 } };
 let shallowCopy = { ...obj }; // Shallow copy using spread operator
+shallowCopy.a = 9;
 shallowCopy.b.c = 99;
 
 console.log("Shallow Copy Example:");
