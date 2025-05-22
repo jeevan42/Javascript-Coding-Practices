@@ -27,7 +27,7 @@ const isPalindrome02 = (val) => {
         let a = val[i];
         let b = val[(lenOfVal - 1) - i];
         // if (!a === b) { // wrong
-        if (!(a === b)) {
+        if (a !== b) {
             return false
         }
     }
