@@ -10,7 +10,20 @@ const sumOfArrayElements = (arr) => {
         return sum + acc
     }, 0)
     return totalSum
-
 }
 
 console.log(`sumOfArrayElements :`, sumOfArrayElements(array))
+
+const sumOfArrayElements02 = (arr) => {
+    let sum = 0;
+    for (let i = 0; i < arr.length; i++) {
+        if (Array.isArray(arr[i])) {
+            sum += sumOfArrayElements02(arr[i])
+        } else {
+            sum += arr[i];
+        }
+    }
+    return sum;
+}
+
+console.log(`sumOfArrayElements02 :`, sumOfArrayElements02(array))
