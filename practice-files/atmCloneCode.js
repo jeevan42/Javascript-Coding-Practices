@@ -135,3 +135,98 @@
 
 
 // ------------------------------------------------------------------------------------------ //
+
+
+
+
+// CORRECT CODE BELOW
+
+
+let atmObj = {
+    100: 10,
+    50: 20,
+    20: 30,
+    10: 30,
+    5: 20,
+};
+
+
+// ✅✅✅ NEW FIXED FUNCTION BELOW
+const withdrawCash = ({ amount, atmObj }) => {
+    const divisible = 5;
+    if (amount % divisible !== 0) {
+        return {
+            success: false,
+            bills: {},
+            error: `non-withdrawable amount, try amount which is divisible by ${divisible}`,
+        };
+    }
+
+    const totalCashAvailable = Object.entries(atmObj).reduce(
+        (sum, [denom, count]) => sum + denom * count,
+        0
+    );
+    if (amount > totalCashAvailable) {
+        return {
+            success: false,
+            bills: {},
+            error: `non-withdrawable amount, insufficient amount`,
+        };
+    }
+
+    const sortedDenoms = Object.keys(atmObj)
+        .map(Number)
+        .sort((a, b) => b - a);
+
+    let remaining = amount; // e.g 3000
+    const bills = {};
+
+    for (const denom of sortedDenoms) { // sortedDenoms => [100,50,20,10,5], and denom first is 100
+        const available = atmObj[denom]; // denom -> 100, atmObj[denom] -> 10
+        const needed = Math.floor(remaining / denom); // remaining -> 3000 , denom -> 100 = Math.floor(3000 / 100) => 30
+        const used = Math.min(available, needed); // Math.min(10, 30) => 10
+        if (used > 0) {
+            bills[denom] = used; // {100:10}
+            remaining -= used * denom; // 10 * 100 => 1000 ( remaining => 3000 -= 1000 => 2000)
+        }
+    }
+
+    if (remaining === 0) {
+        return { success: true, bills, error: "" };
+    }
+
+    return {
+        success: false,
+        bills: {},
+        error: `non-withdrawable amount, cannot match exact amount with available denominations`,
+    };
+};
+
+
+// ✅ Update ATM after withdrawal
+const updateActualAtmObject = ({ withdrawObj, atmObj }) => {
+    let paramBills = withdrawObj?.bills || {};
+    Object.keys(paramBills).forEach((val) => {
+        atmObj[val] = atmObj[val] - paramBills[val];
+    });
+    return { atmObj };
+};
+
+
+// ✅ TEST CASES FOR OLD FUNCTION
+console.log(`withdrawCashfunc 284:`, withdrawCash({ amount: 284, atmObj }));
+console.log(`withdrawCashfunc 3001:`, withdrawCash({ amount: 3001, atmObj }));
+console.log(`withdrawCashfunc 3005:`, withdrawCash({ amount: 3005, atmObj }));
+console.log(`withdrawCashfunc 1100:`, withdrawCash({ amount: 1100, atmObj }));
+console.log(`withdrawCashfunc 3000:`, withdrawCash({ amount: 3000, atmObj }));
+
+
+
+// ✅ New Function Test
+console.log("withdrawCash (Fixed):", withdrawCash({ amount: 115, atmObj }));
+
+
+
+// ✅ Applying update
+const withdrawObj = withdrawCash({ amount: 1010, atmObj });
+console.log(`new atmObj`, updateActualAtmObject({ withdrawObj, atmObj }));
