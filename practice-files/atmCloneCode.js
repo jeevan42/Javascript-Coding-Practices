@@ -142,12 +142,20 @@
 // CORRECT CODE BELOW
 
 
-let atmObj = {
+let atmObj1 = {
     100: 10,
     50: 20,
     20: 30,
     10: 30,
     5: 20,
+};
+
+let atmObj2 = {
+    100: 2,
+    50: 1,
+    20: 0,
+    10: 1,
+    5: 1,
 };
 
 
@@ -214,19 +222,23 @@ const updateActualAtmObject = ({ withdrawObj, atmObj }) => {
 
 
 // ✅ TEST CASES FOR OLD FUNCTION
-console.log(`withdrawCashfunc 284:`, withdrawCash({ amount: 284, atmObj }));
-console.log(`withdrawCashfunc 3001:`, withdrawCash({ amount: 3001, atmObj }));
-console.log(`withdrawCashfunc 3005:`, withdrawCash({ amount: 3005, atmObj }));
-console.log(`withdrawCashfunc 1100:`, withdrawCash({ amount: 1100, atmObj }));
-console.log(`withdrawCashfunc 3000:`, withdrawCash({ amount: 3000, atmObj }));
+console.log(`withdrawCashfunc 284:`, withdrawCash({ amount: 284, atmObj: atmObj1 }));
+console.log(`withdrawCashfunc 3001:`, withdrawCash({ amount: 3001, atmObj: atmObj1 }));
+console.log(`withdrawCashfunc 3005:`, withdrawCash({ amount: 3005, atmObj: atmObj1 }));
+console.log(`withdrawCashfunc 1100:`, withdrawCash({ amount: 1100, atmObj: atmObj1 }));
+console.log(`withdrawCashfunc 3000:`, withdrawCash({ amount: 3000, atmObj: atmObj1 }));
 
 
 
 // ✅ New Function Test
-console.log("withdrawCash (Fixed):", withdrawCash({ amount: 115, atmObj }));
+console.log("withdrawCash (Fixed):", withdrawCash({ amount: 115, atmObj: atmObj1 }));
 
 
 
 // ✅ Applying update
-const withdrawObj = withdrawCash({ amount: 1010, atmObj });
-console.log(`new atmObj`, updateActualAtmObject({ withdrawObj, atmObj }));
+const withdrawObj = withdrawCash({ amount: 1010, atmObj: atmObj1 });
+console.log(`new atmObj`, updateActualAtmObject({ withdrawObj, atmObj: atmObj1 }));
+
+
+
+console.log(`withdrawCashfunc 180:`, withdrawCash({ amount: 180, atmObj: atmObj2 })); // check case where no demo found
