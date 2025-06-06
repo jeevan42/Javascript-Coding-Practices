@@ -1,0 +1,49 @@
+<!-- stop-immediate-propagation.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>stopImmediatePropagation Example</title>
+  <style>
+    .box { padding: 20px; margin: 10px; border: 2px solid black; cursor: pointer; }
+    #outer { background-color: #ffdede; }  /* Light red */
+  </style>
+</head>
+<body>
+
+  <div id="outer" class="box">
+    Outer Box (Click me)
+  </div>
+
+  <script>
+    const outer = document.getElementById('outer');
+
+    // First listener on outer div
+    outer.addEventListener('click', (e) => {
+      console.log('Listener 1: Outer clicked');
+      // Stop other listeners on same element from running
+      e.stopImmediatePropagation();
+    });
+
+    // Second listener on same outer div
+    outer.addEventListener('click', () => {
+      console.log('Listener 2: Outer clicked');
+    });
+
+    // Listener on document body to show event bubbling still works
+    document.body.addEventListener('click', () => {
+      console.log('Document body clicked');
+    });
+  </script>
+
+  <p>
+    Explanation:
+    <ul>
+      <li>There are two listeners on the same element (#outer).</li>
+      <li>Listener 1 calls <code>stopImmediatePropagation()</code>, so Listener 2 does NOT run.</li>
+      <li>Event still bubbles up, so body listener runs after outer listener.</li>
+      <li>Try clicking the red box and check the console logs.</li>
+    </ul>
+  </p>
+
+</body>
+</html>
