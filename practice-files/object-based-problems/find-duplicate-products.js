@@ -38,16 +38,26 @@ const products = [
 
 
 const findDuplicates = (products) => {
-    let dup = [];
-    let skuObj = {};
-    for (const element of products) {
-        if (skuObj[element.sku]) {
-            dup.push(element)
+    let duplicates = []; // Will store duplicate products
+    let seenSkus = {};  // Used to track already seen SKUs
+    for (const product of products) {
+        // If we've seen this SKU before, it's a duplicate
+        if (seenSkus[product.sku]) {
+            duplicates.push(product)
         } else {
-            skuObj[element.sku] = element;
+            // Mark this SKU as seen
+            seenSkus[product.sku] = true;
         }
     }
-    return dup
+    return duplicates
 }
 
 console.log(`findDuplicates`, findDuplicates(products));
+
+
+/*
+📌 Explanation:
+- We loop through each product.
+- If the SKU has already been stored in our `seenSkus` map, we push it into `duplicates`.
+- This way, only second (or further) occurrences are captured.
+*/
