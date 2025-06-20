@@ -1,11 +1,13 @@
-// 🧠 flat() depth behavior
+// 🧠 Symbols are not enumerable with for...in
 
-const arr = [1, [2, [3, [4]]]];
-console.log(arr.flat());      
-// ✅ [1, 2, [3, [4]]]
+const sym = Symbol("id");
+const obj = {
+  [sym]: "secret",
+  normal: "public"
+};
 
-console.log(arr.flat(2));     
-// ✅ [1, 2, 3, [4]]
-
-console.log(arr.flat(Infinity)); 
-// ✅ [1, 2, 3, 4]
+for (let key in obj) {
+  console.log(key); 
+}
+// ✅ Output: normal
+// 🧠 Symbol keys are not iterated in for...in
