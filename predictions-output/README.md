@@ -57,6 +57,11 @@ This folder contains **prediction-based JS snippets** often asked in interviews.
 | 49-for-in-array.js             | `for...in` iterates array + custom keys       |
 | 50-function-name-property.js   | Accessing function's `name` property          |
 | 51-class-vs-function.js        | Differences between class and function call   |
+| 52-array-concat-mutation.js    | `concat()` returns new array, doesn't mutate |
+| 53-array-fill-reference.js     | `.fill(obj)` copies reference, not deep clone |
+| 54-function-declaration-hoisting.js | Function declarations vs expressions hoisting |
+| 55-array-reduce-trap.js        | Reduce throws if no initial value on empty array |
+
 
 
 ## 🧠 How to Use
