@@ -36,6 +36,16 @@ This folder contains **prediction-based JS snippets** often asked in interviews.
 | 28-set-vs-array.js             | Uniqueness handling in Set vs Array          |
 | 29-string-number-coercion.js   | Coercion between string and number types     |
 | 30-array-destructuring.js      | Array destructuring, skipping & defaults     |
+| 31-block-scope-var-let.js      | Scope differences between `var` and `let`    |
+| 32-temporal-dead-zone.js       | TDZ behavior of `let` and `const`            |
+| 33-arguments-object.js         | Link between `arguments` and parameters      |
+| 34-json-parse-error.js         | JSON parsing syntax limitations              |
+| 35-nullish-coalescing.js       | `??` operator vs `||` fallback               |
+| 36-event-loop-blocking.js      | How blocking code delays timers              |
+| 37-constructor-return.js       | Returning object from constructor function   |
+| 38-array-flat-depth.js         | Array flattening with `flat()` method        |
+| 39-symbol-vs-string-key.js     | Symbol keys and object iteration             |
+| 40-optional-chaining.js        | Safe nested property access with `?.`        |
 
 
 ## 🧠 How to Use
