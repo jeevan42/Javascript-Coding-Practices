@@ -51,7 +51,7 @@ This folder contains **prediction-based JS snippets** often asked in interviews.
 | 43-typeof-function.js          | typeof returns 'function' for declared funcs  |
 | 44-primitive-immutability.js   | Immutability of primitive strings             |
 | 45-this-default-binding.js     | Default binding of `this` in non-method call  |
-| 46-pending                     | (Use for next file, or mark as skipped)       |
+| 46-parseint-tricky.js          | parseInt + map behavior with radix confusion  |
 | 47-parseint-map-trap.js        | `map(parseInt)` pitfall due to index → radix |
 | 48-date-equality.js            | Comparing Date objects (reference vs value)   |
 | 49-for-in-array.js             | `for...in` iterates array + custom keys       |
