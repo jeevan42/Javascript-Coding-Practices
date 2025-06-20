@@ -46,6 +46,17 @@ This folder contains **prediction-based JS snippets** often asked in interviews.
 | 38-array-flat-depth.js         | Array flattening with `flat()` method        |
 | 39-symbol-vs-string-key.js     | Symbol keys and object iteration             |
 | 40-optional-chaining.js        | Safe nested property access with `?.`        |
+| 41-set-behavior.js             | Uniqueness in Set with number vs string       |
+| 42-bigint-mystery.js           | Mixing BigInt with Number throws error        |
+| 43-typeof-function.js          | typeof returns 'function' for declared funcs  |
+| 44-primitive-immutability.js   | Immutability of primitive strings             |
+| 45-this-default-binding.js     | Default binding of `this` in non-method call  |
+| 46-pending                     | (Use for next file, or mark as skipped)       |
+| 47-parseint-map-trap.js        | `map(parseInt)` pitfall due to index → radix |
+| 48-date-equality.js            | Comparing Date objects (reference vs value)   |
+| 49-for-in-array.js             | `for...in` iterates array + custom keys       |
+| 50-function-name-property.js   | Accessing function's `name` property          |
+| 51-class-vs-function.js        | Differences between class and function call   |
 
 
 ## 🧠 How to Use
