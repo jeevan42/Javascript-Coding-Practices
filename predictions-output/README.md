@@ -61,6 +61,22 @@ This folder contains **prediction-based JS snippets** often asked in interviews.
 | 53-array-fill-reference.js     | `.fill(obj)` copies reference, not deep clone |
 | 54-function-declaration-hoisting.js | Function declarations vs expressions hoisting |
 | 55-array-reduce-trap.js        | Reduce throws if no initial value on empty array |
+| 56-array-reverse-mutation.js    | .reverse() mutates the original array               |
+| 57-json-stringify-order.js      | JSON.stringify preserves insertion key order        |
+| 58-object-keys-number-order.js  | Numeric keys in object are auto-sorted              |
+| 59-nested-ternary.js            | Nested ternary operator behavior                    |
+| 60-function-expression-name.js  | Named function expressions and `.name` property     |
+| 61-in-operator-vs-undefined.js  | `in` vs `undefined` value checking                  |
+| 62-delete-vs-null.js            | Difference between `delete` and setting to `null`   |
+| 63-string-from-charcode.js      | Generate string characters using ASCII codes        |
+| 64-array-length-manipulation.js | Truncate array by setting `.length` manually        |
+| 65-try-catch-scope.js           | Scope of variables inside `try...catch`             |
+| 66-label-break.js               | Using `break` with labeled loops                    |
+| 67-function-constructor.js      | `new Function()` constructor behavior               |
+| 68-void-operator.js             | `void` always returns undefined                     |
+| 69-type-coercion-array.js       | Strange coercion with objects and arrays            |
+| 70-symbol-description.js        | Symbol description property usage                   |
+
 
 
 
