@@ -76,6 +76,16 @@ This folder contains **prediction-based JS snippets** often asked in interviews.
 | 68-void-operator.js             | `void` always returns undefined                     |
 | 69-type-coercion-array.js       | Strange coercion with objects and arrays            |
 | 70-symbol-description.js        | Symbol description property usage                   |
+| 71-eval-scope.js              | `eval` accessing outer scope                            |
+| 72-typeof-nan.js              | `typeof NaN` returns "number"                           |
+| 73-bool-vs-bool-obj.js        | Boolean vs `new Boolean()` object coercion              |
+| 74-empty-array-truthy.js      | Empty arrays/objects are always truthy                  |
+| 75-comma-operator.js          | Comma operator returns the last evaluated expression    |
+| 76-bitwise-not-indexof.js     | `~indexOf` trick for existence checking                 |
+| 77-increment-eval-order.js    | `a = a++ + ++a` evaluation order trap                   |
+| 78-object-key-overwrite.js    | Object keys overwrite silently if duplicated            |
+| 79-primitive-passing.js       | Primitive values passed by value                        |
+| 80-reference-passing.js       | Objects passed by reference and mutated inside function |
 
 
 
