@@ -1,4 +1,4 @@
-# 🔮 JavaScript Predictions: Behavior-Based Questions
+I# 🔮 JavaScript Predictions: Behavior-Based Questions
 
 This folder contains **prediction-based JS snippets** often asked in interviews. Each file contains tricky cases with explanations to strengthen your understanding.
 
@@ -86,6 +86,16 @@ This folder contains **prediction-based JS snippets** often asked in interviews.
 | 78-object-key-overwrite.js    | Object keys overwrite silently if duplicated            |
 | 79-primitive-passing.js       | Primitive values passed by value                        |
 | 80-reference-passing.js       | Objects passed by reference and mutated inside function |
+| 81-function-redeclared.js     | Later function declarations override earlier ones       |
+| 82-null-loose-equal.js        | `null == undefined` is true; not equal to 0 or ""       |
+| 83-array-concat-spread.js     | Spread and concat produce similar results               |
+| 84-boolean-constructor.js     | `new Boolean(false)` is truthy (object)                 |
+| 85-array-sparse-length.js     | Sparse array sets length to highest index + 1           |
+| 86-empty-return-undefined.js  | Function with no return gives `undefined`               |
+| 87-new-array-vs-array.js      | `Array(3)` creates holes; `[3]` creates a value          |
+| 88-function-prototype-vs-proto.js | `.prototype` vs `.__proto__` explained               |
+| 89-array-join-empty.js        | `.join()` returns "" on empty arrays                    |
+| 90-symbol-hidden.js           | Symbol-keyed properties are hidden from enumeration     |
 
 
 
