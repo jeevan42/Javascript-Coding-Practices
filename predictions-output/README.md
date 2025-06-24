@@ -96,6 +96,16 @@ This folder contains **prediction-based JS snippets** often asked in interviews.
 | 88-function-prototype-vs-proto.js | `.prototype` vs `.__proto__` explained               |
 | 89-array-join-empty.js        | `.join()` returns "" on empty arrays                    |
 | 90-symbol-hidden.js           | Symbol-keyed properties are hidden from enumeration     |
+| 91-string-number-plus.js      | Number + string results in string coercion             |
+| 92-string-minus-number.js     | String - number coerces to numeric operations          |
+| 93-string-bracket-access.js   | String supports index access                           |
+| 94-date-now-vs-newdate.js     | Difference between `Date.now()` and `new Date()`       |
+| 95-parsefloat-trailing.js     | `parseFloat` stops at first invalid character          |
+| 96-array-isarray.js           | Detecting arrays using `Array.isArray()`               |
+| 97-infinity-behavior.js       | Behavior of Infinity in division                       |
+| 98-undefined-delete.js        | `delete` works only on object props, not declared vars |
+| 99-empty-array-bool.js        | `[] == false` due to type coercion                     |
+| 100-function-name-dynamic.js  | Function names: declared vs inferred                   |
 
 
 
