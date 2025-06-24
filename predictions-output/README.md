@@ -1,4 +1,4 @@
-I# 🔮 JavaScript Predictions: Behavior-Based Questions
+# 🔮 JavaScript Predictions: Behavior-Based Questions
 
 This folder contains **prediction-based JS snippets** often asked in interviews. Each file contains tricky cases with explanations to strengthen your understanding.
 
