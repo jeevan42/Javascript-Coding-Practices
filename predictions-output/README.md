@@ -106,6 +106,16 @@ This folder contains **prediction-based JS snippets** often asked in interviews.
 | 98-undefined-delete.js        | `delete` works only on object props, not declared vars |
 | 99-empty-array-bool.js        | `[] == false` due to type coercion                     |
 | 100-function-name-dynamic.js  | Function names: declared vs inferred                   |
+| 101-void-operator.js          | `void` operator always returns undefined              |
+| 102-function-declared-late.js | Function declaration hoisting vs expression timing    |
+| 103-nan-strict-equal.js       | `NaN !== NaN`; use `Object.is` for true comparison    |
+| 104-arguments-vs-rest.js      | Difference between `arguments` and rest params        |
+| 105-convert-to-boolean.js     | `!!` vs `Boolean()` casting techniques                |
+| 106-comparison-null-0.js      | Strange comparisons with `null` and numbers           |
+| 107-settimeout-zero.js        | `setTimeout(..., 0)` runs after current stack         |
+| 108-new-regexp-vs-literal.js  | Difference between `/regex/` and `new RegExp()`       |
+| 109-object-method-this.js     | Behavior of `this` inside object method               |
+| 110-string-split-limit.js     | `.split()` with limit to control parts                |
 
 
 
