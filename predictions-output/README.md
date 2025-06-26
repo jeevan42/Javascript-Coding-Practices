@@ -126,7 +126,16 @@ This folder contains **prediction-based JS snippets** often asked in interviews.
 | 118-array-concat-modify.js    | `.concat()` doesn’t mutate original array             |
 | 119-symbol-description.js     | Symbols can have optional descriptions                |
 | 120-template-tagged.js        | Tagged template literals and custom formatting        |
-
+| 121-logical-nullish-diff.js   | `||` vs `??` behavior with falsy vs nullish values     |
+| 122-string-pad-start.js       | `.padStart()` for padding strings                      |
+| 123-array-fill-mutate.js      | `.fill()` mutates the original array                   |
+| 124-switch-fallthrough.js     | Fallthrough in switch without break                    |
+| 125-eval-scope.js             | `eval` runs in current scope, can modify vars          |
+| 126-bool-object.js            | `new Boolean(false)` is truthy                         |
+| 127-number-to-string-base.js  | `.toString(radix)` for binary, hex conversions         |
+| 128-array-reduce-missing-init.js | `.reduce()` without init uses first item as accumulator |
+| 129-parseint-binary.js        | `parseInt()` with radix for different bases            |
+| 130-locale-compare.js         | `.localeCompare()` for string sorting                  |
 
 
 ## 🧠 How to Use
