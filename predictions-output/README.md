@@ -116,7 +116,16 @@ This folder contains **prediction-based JS snippets** often asked in interviews.
 | 108-new-regexp-vs-literal.js  | Difference between `/regex/` and `new RegExp()`       |
 | 109-object-method-this.js     | Behavior of `this` inside object method               |
 | 110-string-split-limit.js     | `.split()` with limit to control parts                |
-
+| 111-object-to-primitive.js    | How JS coerces objects to primitives                  |
+| 112-json-stringify-order.js   | Property order in JSON.stringify                      |
+| 113-instanceof-array.js       | `instanceof` vs `Array.isArray`                       |
+| 114-delete-array-index.js     | `delete` on array leaves holes                        |
+| 115-object-frozen.js          | Object.freeze makes shallow immutability              |
+| 116-infinity-comparison.js    | Comparing Infinity with large numbers and itself      |
+| 117-function-replace.js       | Function can be reassigned unless declared with const |
+| 118-array-concat-modify.js    | `.concat()` doesn’t mutate original array             |
+| 119-symbol-description.js     | Symbols can have optional descriptions                |
+| 120-template-tagged.js        | Tagged template literals and custom formatting        |
 
 
 
