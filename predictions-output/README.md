@@ -126,7 +126,7 @@ This folder contains **prediction-based JS snippets** often asked in interviews.
 | 118-array-concat-modify.js    | `.concat()` doesn’t mutate original array             |
 | 119-symbol-description.js     | Symbols can have optional descriptions                |
 | 120-template-tagged.js        | Tagged template literals and custom formatting        |
-| 121-logical-nullish-diff.js   | "||" vs "??" behavior with falsy vs nullish values     |
+| 121-logical-nullish-diff.js   | (||) vs (??) behavior with falsy vs nullish values     |
 | 122-string-pad-start.js       | `.padStart()` for padding strings                      |
 | 123-array-fill-mutate.js      | `.fill()` mutates the original array                   |
 | 124-switch-fallthrough.js     | Fallthrough in switch without break                    |
