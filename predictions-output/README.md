@@ -136,6 +136,16 @@ This folder contains **prediction-based JS snippets** often asked in interviews.
 | 128-array-reduce-missing-init.js | `.reduce()` without init uses first item as accumulator |
 | 129-parseint-binary.js        | `parseInt()` with radix for different bases            |
 | 130-locale-compare.js         | `.localeCompare()` for string sorting                  |
+| 131-number-object-compare.js  | Comparing number primitives with Number objects        |
+| 132-typeof-function-instance.js | Functions are objects — typeof vs instanceof         |
+| 133-array-constructor-confuse.js | `new Array(n)` creates sparse array                 |
+| 134-object-assign-vs-clone.js | `Object.assign` does shallow copy only                |
+| 135-set-equality.js           | Set equality is by reference                          |
+| 136-array-from-vs-slice.js    | Convert array-like objects using `Array.from()`       |
+| 137-async-function-return.js  | `async` functions always return a Promise             |
+| 138-null-undefined-equal.js   | `null == undefined` but not strictly equal            |
+| 139-math-round-vs-floor.js    | Difference between `Math.round()` and `Math.floor()`  |
+| 140-unary-plus-coerce.js      | Unary `+` coerces value to number                     |
 
 
 ## 🧠 How to Use
