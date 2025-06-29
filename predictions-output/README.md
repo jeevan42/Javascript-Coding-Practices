@@ -146,6 +146,16 @@ This folder contains **prediction-based JS snippets** often asked in interviews.
 | 138-null-undefined-equal.js   | `null == undefined` but not strictly equal            |
 | 139-math-round-vs-floor.js    | Difference between `Math.round()` and `Math.floor()`  |
 | 140-unary-plus-coerce.js      | Unary `+` coerces value to number                     |
+| 141-array-every-vs-some.js    | Difference between `.every()` and `.some()`         |
+| 142-object-key-order.js       | Integer keys in objects are sorted numerically       |
+| 143-promise-catch-finally.js  | `.finally()` runs after both resolve and reject      |
+| 144-typeof-array.js           | Arrays return `'object'` from `typeof`, use `isArray`|
+| 145-function-name-binding.js  | Function `name` is immutable                         |
+| 146-undefined-global-leak.js  | Undeclared vars leak to global scope in sloppy mode  |
+| 147-string-fromcharcode.js    | Convert Unicode/ASCII codes to characters            |
+| 148-replace-callback.js       | `.replace()` with function callback & regex groups   |
+| 149-instanceof-bound-function.js | `.bind()` breaks `instanceof` check               |
+| 150-proxy-get-trap.js         | Using `Proxy` to customize property access           |
 
 
 ## 🧠 How to Use
