@@ -156,7 +156,16 @@ This folder contains **prediction-based JS snippets** often asked in interviews.
 | 148-replace-callback.js       | `.replace()` with function callback & regex groups   |
 | 149-instanceof-bound-function.js | `.bind()` breaks `instanceof` check               |
 | 150-proxy-get-trap.js         | Using `Proxy` to customize property access           |
-
+| 151-date-parsing-pitfall.js     | Date parsing inconsistencies across formats        |
+| 152-number-epsilon.js           | Comparing floating-point numbers with EPSILON      |
+| 153-regex-lastindex-trap.js     | Global regex retains state via `.lastIndex`        |
+| 154-function-default-eval.js    | `Function` constructor acts like unsafe `eval`     |
+| 155-array-indexof-nan.js        | `indexOf(NaN)` fails; use `includes()` instead      |
+| 156-weakmap-garbage.js          | WeakMap allows garbage collection of keys          |
+| 157-arrow-constructor-trap.js   | Arrow functions cannot be used as constructors     |
+| 158-instanceof-custom.js        | Override `instanceof` using `Symbol.hasInstance`   |
+| 159-object-entries-vs-fromentries.js | Convert object to/from entries for transformations |
+| 160-locale-string-behavior.js   | Use `toLocaleString()` for region-specific display |
 
 ## 🧠 How to Use
 
