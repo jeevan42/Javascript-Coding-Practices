@@ -166,7 +166,16 @@ This folder contains **prediction-based JS snippets** often asked in interviews.
 | 158-instanceof-custom.js        | Override `instanceof` using `Symbol.hasInstance`   |
 | 159-object-entries-vs-fromentries.js | Convert object to/from entries for transformations |
 | 160-locale-string-behavior.js   | Use `toLocaleString()` for region-specific display |
-
+| 161-json-parse-bigint.js       | BigInt cannot be serialized in JSON                |
+| 162-array-slice-negative.js    | Negative indices in `.slice()` count from end      |
+| 163-switch-true-pattern.js     | `switch(true)` for range/conditional branching     |
+| 164-array-copywithin.js        | `.copyWithin()` copies within array (mutates)      |
+| 165-destructuring-undefined.js | Destructuring with defaults & `undefined` handling |
+| 166-object-defineproperty.js   | Define property with control flags (`writable`, etc)|
+| 167-regex-lookahead.js         | Lookahead assertions in regex                      |
+| 168-object-freeze-nested.js    | `.freeze()` is shallow — nested objects still mutable |
+| 169-array-every-shortcircuit.js| `.every()` stops on first `false` return           |
+| 170-json-replacer-filter.js    | Filter out fields while stringifying JSON          |
 ## 🧠 How to Use
 
 - Read the code, **predict the output** before running.
