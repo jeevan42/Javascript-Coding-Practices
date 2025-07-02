@@ -176,6 +176,18 @@ This folder contains **prediction-based JS snippets** often asked in interviews.
 | 168-object-freeze-nested.js    | `.freeze()` is shallow — nested objects still mutable |
 | 169-array-every-shortcircuit.js| `.every()` stops on first `false` return           |
 | 170-json-replacer-filter.js    | Filter out fields while stringifying JSON          |
+| 171-array-flat-infinity.js     | Flatten arrays to unlimited depth using `.flat(Infinity)` |
+| 172-function-name-overwrite.js | Function name in expression is read-only                  |
+| 173-json-stringify-function.js | Functions & symbols are skipped in `JSON.stringify`       |
+| 174-array-indexof-nan.js       | `NaN` not found by `indexOf`, use `.includes()`           |
+| 175-json-parse-reviver.js      | Transform parsed values using reviver in `JSON.parse`     |
+| 176-for-loop-missing-parts.js  | All components in `for` loop are optional                 |
+| 177-getter-setter-trap.js      | Defining and using getter/setter in objects               |
+| 178-object-spread-skip-symbol.js | Spread syntax skips symbol-keyed properties              |
+| 179-arguments-callee.js        | `arguments.callee` deprecated in strict mode              |
+| 180-switch-expression.js       | `switch` uses strict comparison (`===`)                   |
+
+
 ## 🧠 How to Use
 
 - Read the code, **predict the output** before running.
