@@ -186,7 +186,16 @@ This folder contains **prediction-based JS snippets** often asked in interviews.
 | 178-object-spread-skip-symbol.js | Spread syntax skips symbol-keyed properties              |
 | 179-arguments-callee.js        | `arguments.callee` deprecated in strict mode              |
 | 180-switch-expression.js       | `switch` uses strict comparison (`===`)                   |
-
+| 181-array-push-length.js        | `.push()` returns new array length, not array         |
+| 182-number-object-compare.js    | Comparing Number object with primitive                |
+| 183-undefined-prop-access.js    | Optional chaining prevents crash on undefined props   |
+| 184-date-parse-format.js        | `Date.parse()` works only on valid ISO formats        |
+| 185-bitwise-coerce.js           | Bitwise NOT `~` coerces values to numbers             |
+| 186-array-find-vs-filter.js     | `.find()` returns one, `.filter()` returns all matches|
+| 187-parseint-vs-number.js       | `parseInt` vs `Number` with string input              |
+| 188-number-leading-zero.js      | Leading zeros may result in octal numbers             |
+| 189-object-hasown-vs-in.js      | `in` checks prototype, `hasOwnProperty` doesn't       |
+| 190-number-epsilon-compare.js   | Use `Number.EPSILON` for floating point comparison    |
 
 ## 🧠 How to Use
 
