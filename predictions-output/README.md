@@ -196,7 +196,16 @@ This folder contains **prediction-based JS snippets** often asked in interviews.
 | 188-number-leading-zero.js      | Leading zeros may result in octal numbers             |
 | 189-object-hasown-vs-in.js      | `in` checks prototype, `hasOwnProperty` doesn't       |
 | 190-number-epsilon-compare.js   | Use `Number.EPSILON` for floating point comparison    |
-
+| 191-instanceof-after-bind.js     | `.bind()` breaks `instanceof` relationship            |
+| 192-undefined-in-json.js         | `undefined` is omitted from JSON.stringify            |
+| 193-promise-return-trap.js       | `.then()` accepts both values and Promises            |
+| 194-object-assign-array.js       | `Object.assign()` copies array index keys             |
+| 195-switch-expression-eval.js    | `switch` uses strict equality (`===`)                 |
+| 196-typeof-regex.js              | RegExp is of type 'object'                            |
+| 197-array-length-trap.js         | Truncating array by setting `.length`                 |
+| 198-deep-equal-vs-shallow.js     | `===` only checks references, not deep equality       |
+| 199-async-constructor.js         | Class constructors can't be `async`                   |
+| 200-array-unshift-return.js      | `.unshift()` returns the new array length             |
 ## 🧠 How to Use
 
 - Read the code, **predict the output** before running.
