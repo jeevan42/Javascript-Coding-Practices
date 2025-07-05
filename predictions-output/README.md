@@ -206,6 +206,17 @@ This folder contains **prediction-based JS snippets** often asked in interviews.
 | 198-deep-equal-vs-shallow.js     | `===` only checks references, not deep equality       |
 | 199-async-constructor.js         | Class constructors can't be `async`                   |
 | 200-array-unshift-return.js      | `.unshift()` returns the new array length             |
+| 201-array-every-empty.js         | `.every()` on empty array returns true                  |
+| 202-array-some-empty.js          | `.some()` on empty array returns false                 |
+| 203-json-parse-date.js           | Dates stringify as ISO strings, lose type              |
+| 204-function-name-anonymous.js   | Anonymous functions get name from variable             |
+| 205-in-operator-array.js         | `in` checks index existence, not value                 |
+| 206-string-match-regex.js        | `.match()` returns `null` if no match                  |
+| 207-typeof-null-instanceof.js    | `typeof null` is object but not `instanceof Object`    |
+| 208-empty-array-typeof.js        | `typeof []` is `'object'`                              |
+| 209-function-hoisting.js         | Function declarations are fully hoisted                |
+| 210-missing-return-undefined.js  | Missing return defaults to `undefined`                 |
+
 ## 🧠 How to Use
 
 - Read the code, **predict the output** before running.
