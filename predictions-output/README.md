@@ -216,6 +216,17 @@ This folder contains **prediction-based JS snippets** often asked in interviews.
 | 208-empty-array-typeof.js        | `typeof []` is `'object'`                              |
 | 209-function-hoisting.js         | Function declarations are fully hoisted                |
 | 210-missing-return-undefined.js  | Missing return defaults to `undefined`                 |
+| 211-array-slice-negative-index.js   | `.slice(-n)` counts from end of array              |
+| 212-object-values-order.js          | Object keys: integers first (sorted), then rest    |
+| 213-number-plus-object.js           | Number + object coerces to string                  |
+| 214-parsefloat-space.js             | `parseFloat` ignores spaces                        |
+| 215-date-equality-trap.js           | Date objects are not equal by reference            |
+| 216-json-stringify-method.js        | `JSON.stringify` skips functions and symbols       |
+| 217-typeof-symbol.js                | `typeof Symbol()` returns `'symbol'`              |
+| 218-eval-vs-function.js             | `eval` vs `Function()` scoping behavior            |
+| 219-array-constructor-length.js     | `Array(n)` creates holes, not values               |
+| 220-comma-expression-assignment.js  | Comma expression evaluates all, returns last       |
+
 
 ## 🧠 How to Use
 
