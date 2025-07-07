@@ -226,6 +226,16 @@ This folder contains **prediction-based JS snippets** often asked in interviews.
 | 218-eval-vs-function.js             | `eval` vs `Function()` scoping behavior            |
 | 219-array-constructor-length.js     | `Array(n)` creates holes, not values               |
 | 220-comma-expression-assignment.js  | Comma expression evaluates all, returns last       |
+| 221-new-object-vs-literal.js        | `new Object()` vs `{}` — both create objects           |
+| 222-nan-number-check.js             | NaN !== NaN — use `Number.isNaN()`                     |
+| 223-symbol-hidden-properties.js     | Symbol-keyed props are hidden from loops               |
+| 224-regex-lastindex.js              | Regex with `/g` retains `lastIndex`                    |
+| 225-string-escape-trick.js          | Escape sequences like `\n`, `\t` in strings             |
+| 226-function-return-missing.js      | Arrow functions returning object need `()`             |
+| 227-parseint-leading-zero.js        | Legacy octal parsing with leading zero                 |
+| 228-array-some-holes.js             | `.some()` skips holes, doesn't see them as `undefined` |
+| 229-json-stringify-circular.js      | Circular objects throw on `JSON.stringify()`           |
+| 230-string-number-subtraction.js    | `"string" - number` → coerces string to number         |
 
 
 ## 🧠 How to Use
