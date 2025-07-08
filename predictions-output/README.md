@@ -236,6 +236,16 @@ This folder contains **prediction-based JS snippets** often asked in interviews.
 | 228-array-some-holes.js             | `.some()` skips holes, doesn't see them as `undefined` |
 | 229-json-stringify-circular.js      | Circular objects throw on `JSON.stringify()`           |
 | 230-string-number-subtraction.js    | `"string" - number` → coerces string to number         |
+| 231-async-function-stack.js        | Async functions throw errors wrapped in Promises       |
+| 232-boolean-index-trick.js         | Booleans as array index: true → 1, false → 0           |
+| 233-object-compare-json.js         | `JSON.stringify()` order affects object comparison     |
+| 234-destructuring-undefined.js     | Destructuring undefined throws error                   |
+| 235-function-arity-trick.js        | Function.length counts params before default assignment|
+| 236-infinite-recursion-stack.js    | Infinite recursion → max call stack error              |
+| 237-string-coercion-object.js      | Object + string = `[object Object]string`              |
+| 238-undefined-property-access.js   | Optional chaining prevents errors on undefined access  |
+| 239-delete-nonexistent.js          | `delete` on nonexistent keys returns true              |
+| 240-array-sort-numbers.js          | Default sort uses string comparison, not numeric       |
 
 
 ## 🧠 How to Use
