@@ -246,6 +246,16 @@ This folder contains **prediction-based JS snippets** often asked in interviews.
 | 238-undefined-property-access.js   | Optional chaining prevents errors on undefined access  |
 | 239-delete-nonexistent.js          | `delete` on nonexistent keys returns true              |
 | 240-array-sort-numbers.js          | Default sort uses string comparison, not numeric       |
+| 241-settimeout-this.js           | `this` in `setTimeout()` is global (not object)        |
+| 242-array-find-index.js          | `.findIndex()` returns -1 if not found                 |
+| 243-function-name-arrow.js       | Arrow functions don’t bind `name` keyword manually     |
+| 244-number-leading-plus.js       | Unary `+` converts string to number or NaN             |
+| 245-boolean-string.js            | Booleans convert to string in template literals        |
+| 246-number-epsilon-compare.js    | Compare floats safely with `Number.EPSILON`            |
+| 247-new-date-vs-now.js           | `Date.now()` → timestamp; `new Date()` → object        |
+| 248-for-loop-declare-once.js     | `let` in loop creates block-scoped variable            |
+| 249-object-undefined-access.js   | Accessing non-existent property returns `undefined`    |
+| 250-delete-return.js             | `delete` returns true/false depending on success       |
 
 
 ## 🧠 How to Use
