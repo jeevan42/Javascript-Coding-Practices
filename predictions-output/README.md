@@ -256,6 +256,17 @@ This folder contains **prediction-based JS snippets** often asked in interviews.
 | 248-for-loop-declare-once.js     | `let` in loop creates block-scoped variable            |
 | 249-object-undefined-access.js   | Accessing non-existent property returns `undefined`    |
 | 250-delete-return.js             | `delete` returns true/false depending on success       |
+| 251-array-includes-nan.js        | `.includes()` detects NaN, unlike `.indexOf()`         |
+| 252-new-array-length.js          | `new Array(n)` creates sparse arrays                   |
+| 253-array-index-as-string.js     | Object keys from numbers are stored as strings         |
+| 254-template-nested.js           | Template literals support nested expressions           |
+| 255-json-parse-null.js           | `JSON.parse("null")` returns `null`                    |
+| 256-switch-type-match.js         | `switch` uses strict equality (`===`)                  |
+| 257-delete-from-array.js         | `delete` creates holes in arrays, doesn’t shift        |
+| 258-empty-string-falsy.js        | Empty string (`""`) is falsy                           |
+| 259-number-equal-vs-object.js    | Primitives vs wrapper object in equality               |
+| 260-object-key-space.js          | Keys with spaces must be quoted or bracket-accessed    |
+
 
 
 ## 🧠 How to Use
