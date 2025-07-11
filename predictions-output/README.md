@@ -266,6 +266,16 @@ This folder contains **prediction-based JS snippets** often asked in interviews.
 | 258-empty-string-falsy.js        | Empty string (`""`) is falsy                           |
 | 259-number-equal-vs-object.js    | Primitives vs wrapper object in equality               |
 | 260-object-key-space.js          | Keys with spaces must be quoted or bracket-accessed    |
+| 261-in-operator-array.js         | `in` operator on arrays checks for index presence     |
+| 262-promise-reject-then.js       | `.then()` can take 2 args: resolve and reject handler |
+| 263-parseint-hex.js              | `parseInt` parses hex strings with `0x` prefix        |
+| 264-array-flat-default.js        | `.flat()` defaults to depth 1                         |
+| 265-null-equal-false.js          | `null == false` is false; `undefined == null` is true |
+| 266-async-function-error.js      | Errors in `async` functions become rejected promises  |
+| 267-promise-return-chain.js      | Returned value flows down `.then()` chain             |
+| 268-isfinite-trap.js             | `isFinite()` coerces; `Number.isFinite()` doesn’t     |
+| 269-string-trim.js               | `.trim()` removes whitespace from ends of string      |
+| 270-in-operator-object.js        | `in` checks own + inherited properties                |
 
 
 
