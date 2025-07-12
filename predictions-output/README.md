@@ -276,7 +276,16 @@ This folder contains **prediction-based JS snippets** often asked in interviews.
 | 268-isfinite-trap.js             | `isFinite()` coerces; `Number.isFinite()` doesn’t     |
 | 269-string-trim.js               | `.trim()` removes whitespace from ends of string      |
 | 270-in-operator-object.js        | `in` checks own + inherited properties                |
-
+| 271-null-object-lookup.js        | Accessing property on `null` throws error             |
+| 272-optional-chaining-safe.js    | Use `?.` to avoid accessing properties on `null`      |
+| 273-string-repeat.js             | `.repeat()` repeats string N times                    |
+| 274-array-copy-slice.js          | `.slice()` makes a shallow array copy                 |
+| 275-json-parse-date.js           | `JSON.parse()` doesn’t convert date strings           |
+| 276-unary-minus.js               | Unary `-` converts to number and negates              |
+| 277-array-every-shortcircuit.js  | `.every()` stops checking at first false              |
+| 278-array-some-shortcircuit.js   | `.some()` stops checking at first true                |
+| 279-logical-or-default.js        | `||` returns first truthy value                       |
+| 280-nullish-coalescing-default.js| `??` returns fallback only if null/undefined          |
 
 
 ## 🧠 How to Use
