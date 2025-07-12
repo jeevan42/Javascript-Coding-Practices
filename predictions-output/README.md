@@ -284,7 +284,7 @@ This folder contains **prediction-based JS snippets** often asked in interviews.
 | 276-unary-minus.js               | Unary `-` converts to number and negates              |
 | 277-array-every-shortcircuit.js  | `.every()` stops checking at first false              |
 | 278-array-some-shortcircuit.js   | `.some()` stops checking at first true                |
-| 279-logical-or-default.js        | ("||") returns first truthy value                       |
+| 279-logical-or-default.js        | (| |) returns first truthy value                       |
 | 280-nullish-coalescing-default.js| `??` returns fallback only if null/undefined          |
 
 
