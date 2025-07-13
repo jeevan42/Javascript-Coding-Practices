@@ -286,7 +286,16 @@ This folder contains **prediction-based JS snippets** often asked in interviews.
 | 278-array-some-shortcircuit.js   | `.some()` stops checking at first true                |
 | 279-logical-or-default.js        | ll returns first truthy value                       |
 | 280-nullish-coalescing-default.js| `??` returns fallback only if null/undefined          |
-
+| 281-typeof-array.js              | Arrays return "object" with `typeof`; use `isArray`  |
+| 282-empty-string-number.js       | Empty string coerces to 0 in numeric comparison       |
+| 283-double-bang-null.js          | `!!` for boolean casting                              |
+| 284-boolean-constructor-trap.js  | `new Boolean(false)` is still truthy                  |
+| 285-spread-overwrites.js         | Spread later keys overwrite previous ones             |
+| 286-function-defaults-undefined.js | Only `undefined` triggers default param             |
+| 287-nested-array-to-string.js    | Nested arrays flatten via `.toString()`              |
+| 288-number-leading-zero.js       | Strings with leading 0s may be legacy octal           |
+| 289-float-modulo.js              | Modulo operator works with floats                     |
+| 290-increment-prefix-vs-postfix.js | `++a` vs `a++` return value difference              |
 
 ## 🧠 How to Use
 
