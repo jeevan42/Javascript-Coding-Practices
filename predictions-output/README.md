@@ -299,7 +299,7 @@ This folder contains **prediction-based JS snippets** often asked in interviews.
 | 291-parsefloat-empty.js          | `parseFloat('')` returns NaN                         |
 | 292-array-index-as-string.js     | Array indices are stored as strings in object keys  |
 | 293-logical-and-return.js        | `&&` returns first falsy or last truthy             |
-| 294-logical-or-return.js         | `||` returns first truthy                           |
+| 294-logical-or-return.js         | ll returns first truthy                           |
 | 295-function-return-undefined.js | No `return` yields `undefined`                      |
 | 296-async-return-value.js        | `async` always returns a Promise                    |
 | 297-infinite-loop-float.js       | Floating point increment may never hit target       |
