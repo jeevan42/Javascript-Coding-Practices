@@ -296,6 +296,17 @@ This folder contains **prediction-based JS snippets** often asked in interviews.
 | 288-number-leading-zero.js       | Strings with leading 0s may be legacy octal           |
 | 289-float-modulo.js              | Modulo operator works with floats                     |
 | 290-increment-prefix-vs-postfix.js | `++a` vs `a++` return value difference              |
+| 291-parsefloat-empty.js          | `parseFloat('')` returns NaN                         |
+| 292-array-index-as-string.js     | Array indices are stored as strings in object keys  |
+| 293-logical-and-return.js        | `&&` returns first falsy or last truthy             |
+| 294-logical-or-return.js         | `||` returns first truthy                           |
+| 295-function-return-undefined.js | No `return` yields `undefined`                      |
+| 296-async-return-value.js        | `async` always returns a Promise                    |
+| 297-infinite-loop-float.js       | Floating point increment may never hit target       |
+| 298-json-stringify-symbol.js     | `JSON.stringify()` ignores Symbol keys              |
+| 299-array-indexof-nan.js         | `indexOf(NaN)` fails due to `NaN !== NaN`           |
+| 300-const-object-mutate.js       | `const` objects can mutate; can't be reassigned     |
+
 
 ## 🧠 How to Use
 
