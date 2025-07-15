@@ -306,6 +306,16 @@ This folder contains **prediction-based JS snippets** often asked in interviews.
 | 298-json-stringify-symbol.js     | `JSON.stringify()` ignores Symbol keys              |
 | 299-array-indexof-nan.js         | `indexOf(NaN)` fails due to `NaN !== NaN`           |
 | 300-const-object-mutate.js       | `const` objects can mutate; can't be reassigned     |
+| 301-math-max-empty.js            | `Math.max()` with no args returns `-Infinity`       |
+| 302-math-min-empty.js            | `Math.min()` with no args returns `Infinity`        |
+| 303-function-hoisting-overwrite.js | Later function declarations override earlier      |
+| 304-promise-then-return.js       | `.then()` returns a new Promise                    |
+| 305-loop-settimeout-var.js       | Closure issue in loop with `var`                   |
+| 306-loop-settimeout-let.js       | Using `let` fixes closure problem in loops         |
+| 307-prototype-method-add.js      | Dynamically add method to prototype                |
+| 308-typeof-symbol.js             | `typeof Symbol()` returns `"symbol"`              |
+| 309-console-log-undefined.js     | Accessing undeclared variable throws error         |
+| 310-ternary-nested-confuse.js    | Nested ternary expressions are tricky              |
 
 
 ## 🧠 How to Use
