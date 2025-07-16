@@ -316,6 +316,16 @@ This folder contains **prediction-based JS snippets** often asked in interviews.
 | 308-typeof-symbol.js             | `typeof Symbol()` returns `"symbol"`              |
 | 309-console-log-undefined.js     | Accessing undeclared variable throws error         |
 | 310-ternary-nested-confuse.js    | Nested ternary expressions are tricky              |
+| 311-in-operator-on-array.js     | `in` checks array indices, not values              |
+| 312-string-repeat-negative.js   | `.repeat()` with negative throws error             |
+| 313-array-sort-default.js       | Default `.sort()` sorts as strings                 |
+| 314-null-instanceof-object.js   | `null instanceof Object` is false                 |
+| 315-regex-lastindex.js          | Reusing global RegExp can cause lastIndex issues  |
+| 316-set-has-naN.js              | `Set` treats all `NaN` as equal                   |
+| 317-function-argument-overwrite.js | Local variable can overwrite function param     |
+| 318-spread-string.js            | Spreading string creates character array          |
+| 319-nested-array-access.js      | Accessing deep arrays with optional chaining       |
+| 320-number-plus-object.js       | Adding number + object uses `valueOf()` or `toString()` |
 
 
 ## 🧠 How to Use
