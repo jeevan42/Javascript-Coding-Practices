@@ -326,6 +326,17 @@ This folder contains **prediction-based JS snippets** often asked in interviews.
 | 318-spread-string.js            | Spreading string creates character array          |
 | 319-nested-array-access.js      | Accessing deep arrays with optional chaining       |
 | 320-number-plus-object.js       | Adding number + object uses `valueOf()` or `toString()` |
+| 321-add-string-minus-number.js  | `1 + "1" - 1` → 10 due to coercion                 |
+| 322-bang-string-false.js        | `!!"false"` → true (non-empty string is truthy)   |
+| 323-new-number-typeof.js        | `typeof new Number(5)` → "object"                 |
+| 324-typeof-null.js              | `typeof null` → "object" (legacy bug)             |
+| 325-nan-equality.js             | `NaN === NaN` → false                             |
+| 326-array-reference-equality.js | `[1,2] === [1,2]` → false (different references)   |
+| 327-empty-array-equality.js     | `[] == false` → true (coercion to "")             |
+| 328-async-fn-returns-promise.js | Async functions always return a Promise           |
+| 329-json-parse-number.js        | `JSON.parse("5")` → 5 (number, not string)        |
+| 330-float-precision-error.js    | `0.1 + 0.2 !== 0.3` → true (floating point issue) |
+
 
 
 ## 🧠 How to Use
