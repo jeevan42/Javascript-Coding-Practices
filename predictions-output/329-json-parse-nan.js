@@ -1,0 +1,1 @@
+console.log(JSON.parse("5")); // 5 (number, not string)
