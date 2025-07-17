@@ -1,0 +1,1 @@
+console.log(!!"false"); // true — non-empty strings are truthy
