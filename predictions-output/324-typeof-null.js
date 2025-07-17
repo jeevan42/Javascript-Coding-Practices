@@ -1,0 +1,1 @@
+console.log(typeof null); // 🧠 "object" (JS bug from early days)
