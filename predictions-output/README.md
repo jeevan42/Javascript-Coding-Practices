@@ -336,7 +336,17 @@ This folder contains **prediction-based JS snippets** often asked in interviews.
 | 328-async-fn-returns-promise.js | Async functions always return a Promise           |
 | 329-json-parse-number.js        | `JSON.parse("5")` → 5 (number, not string)        |
 | 330-float-precision-error.js    | `0.1 + 0.2 !== 0.3` → true (floating point issue) |
-
+| File                           | Description                                      |
+| 331-array-hole-map.js          | `.map()` skips holes in arrays                  |
+| 332-json-parse-date.js         | `JSON.parse` turns dates into strings           |
+| 333-for-in-array.js            | `for...in` iterates over array indexes          |
+| 334-this-in-arrow.js           | Arrow functions don’t have their own `this`     |
+| 335-number-epsilon.js          | `Number.EPSILON` helps compare floats precisely |
+| 336-symbol-description.js      | `Symbol('desc').description` gets description   |
+| 337-parseint-with-radix.js     | Always pass radix to `parseInt` for safety      |
+| 338-instanceof-vs-typeof.js    | Difference between `instanceof` and `typeof`    |
+| 339-function-length.js         | `.length` shows number of declared parameters   |
+| 340-string-pad.js              | `.padStart()` and `.padEnd()` pad strings       |
 
 
 ## 🧠 How to Use
