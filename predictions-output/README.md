@@ -335,8 +335,7 @@ This folder contains **prediction-based JS snippets** often asked in interviews.
 | 327-empty-array-equality.js     | `[] == false` → true (coercion to "")             |
 | 328-async-fn-returns-promise.js | Async functions always return a Promise           |
 | 329-json-parse-number.js        | `JSON.parse("5")` → 5 (number, not string)        |
-| 330-float-precision-error.js    | `0.1 + 0.2 !== 0.3` → true (floating point issue) |
-| File                           | Description                                      |
+| 330-float-precision-error.js    | `0.1 + 0.2 !== 0.3` → true (floating point issue) |          
 | 331-array-hole-map.js          | `.map()` skips holes in arrays                  |
 | 332-json-parse-date.js         | `JSON.parse` turns dates into strings           |
 | 333-for-in-array.js            | `for...in` iterates over array indexes          |
