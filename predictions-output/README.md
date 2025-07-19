@@ -345,7 +345,19 @@ This folder contains **prediction-based JS snippets** often asked in interviews.
 | 337-parseint-with-radix.js     | Always pass radix to `parseInt` for safety      |
 | 338-instanceof-vs-typeof.js    | Difference between `instanceof` and `typeof`    |
 | 339-function-length.js         | `.length` shows number of declared parameters   |
-| 340-string-pad.js              | `.padStart()` and `.padEnd()` pad strings       |
+| 340-string-pad.js              | `.padStart()` and `.padEnd()` pad strings       |         
+| 341-object-key-order.js        | Object keys maintain insertion order              |
+| 342-parseint-radix-trap.js     | `map(parseInt)` causes unexpected results         |
+| 343-math-max-empty.js          | `Math.max()` without args returns `-Infinity`     |
+| 344-undefined-key-in-object.js | `undefined` becomes string key in object          |
+| 345-object-freeze-mutate.js    | Frozen objects can’t be mutated                   |
+| 346-array-concat-object.js     | Concatenating object to array preserves structure |
+| 347-equality-object-vs-string.js | Object is not equal to string '[object Object]' |
+| 348-json-parse-date.js         | `JSON.parse()` of date returns string not Date    |
+| 349-array-hole-vs-undefined.js | Array hole ≠ undefined (check with `i in arr`)    |
+| 350-function-name.js           | Function name still shows inner named function    |
+
+
 
 
 ## 🧠 How to Use
