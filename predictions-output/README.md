@@ -355,8 +355,17 @@ This folder contains **prediction-based JS snippets** often asked in interviews.
 | 347-equality-object-vs-string.js | Object is not equal to string '[object Object]' |
 | 348-json-parse-date.js         | `JSON.parse()` of date returns string not Date    |
 | 349-array-hole-vs-undefined.js | Array hole ≠ undefined (check with `i in arr`)    |
-| 350-function-name.js           | Function name still shows inner named function    |
-
+| 350-function-name.js           | Function name still shows inner named function    |                          
+| 351-array-keys-iterator.js     | Array `.keys()` returns an iterator of indexes       |
+| 352-typeof-null.js             | `typeof null` is `'object'`                          |
+| 353-array-reverse-mutation.js  | `reverse()` mutates original array                   |
+| 354-delete-array-index.js      | `delete` leaves a hole in array                      |
+| 355-arguments-object.js        | `arguments` and parameters are linked                |
+| 356-function-hoisting.js       | Function declarations are hoisted                    |
+| 357-function-expression-hoisting.js | Function expressions are **not** hoisted        |
+| 358-instanceof-array.js        | `[] instanceof Array` and `Object` both true         |
+| 359-array-flat-depth.js        | `flat(n)` flattens array to depth `n`                |
+| 360-tofixed-type.js            | `toFixed()` returns string, not number               |
 
 
 
