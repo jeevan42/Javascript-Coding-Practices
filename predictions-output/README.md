@@ -366,6 +366,16 @@ This folder contains **prediction-based JS snippets** often asked in interviews.
 | 358-instanceof-array.js        | `[] instanceof Array` and `Object` both true         |
 | 359-array-flat-depth.js        | `flat(n)` flattens array to depth `n`                |
 | 360-tofixed-type.js            | `toFixed()` returns string, not number               |
+| 361-infinity-comparisons.js   | Infinity comparisons and division by zero                  |
+| 362-nan-comparisons.js        | NaN not equal to itself, use `Object.is()`                 |
+| 363-parseint-vs-number.js     | `parseInt` vs `Number` on string input                     |
+| 364-parseint-radix.js         | Using radix with `parseInt` to control base                |
+| 365-unicode-string-length.js  | Emoji has length 2 due to UTF-16 surrogate pairs           |
+| 366-template-literals-expr.js | Template literals evaluate expressions inside `${}`        |
+| 367-optional-chaining.js      | Safe access with optional chaining                         |
+| 368-nullish-coalescing.js     | `??` only replaces `null` or `undefined`                   |
+| 369-bitwise-not-trick.js      | `~index` trick to check for `-1` in `indexOf`              |
+| 370-unary-plus.js             | Unary `+` converts to number                               |
 
 
 
