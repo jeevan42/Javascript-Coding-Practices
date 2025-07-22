@@ -376,6 +376,17 @@ This folder contains **prediction-based JS snippets** often asked in interviews.
 | 368-nullish-coalescing.js     | `??` only replaces `null` or `undefined`                   |
 | 369-bitwise-not-trick.js      | `~index` trick to check for `-1` in `indexOf`              |
 | 370-unary-plus.js             | Unary `+` converts to number                               |
+| 371-typeof-null.js             | `typeof null` is `'object'`, a long-standing bug      |
+| 372-typeof-nan.js              | `typeof NaN` returns `'number'`                       |
+| 373-double-negation.js         | Use `!!value` to convert to boolean                   |
+| 374-zero-equality.js           | `0 === -0` is true, but `Object.is(0, -0)` is false   |
+| 375-string-concat-trick.js     | `+` operator does implicit type coercion              |
+| 376-number-isnan-vs-isnan.js   | `isNaN()` coerces, `Number.isNaN()` is strict         |
+| 377-boolean-conversion.js      | Truthy and falsy values in Boolean conversion         |
+| 378-void-operator.js           | `void` returns `undefined` always                     |
+| 379-instanceof-vs-typeof.js    | `instanceof` vs `typeof` to check types               |
+| 380-equality-with-arrays.js    | Arrays are compared by reference, not value           |
+
 
 
 
