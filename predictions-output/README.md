@@ -386,6 +386,17 @@ This folder contains **prediction-based JS snippets** often asked in interviews.
 | 378-void-operator.js           | `void` returns `undefined` always                     |
 | 379-instanceof-vs-typeof.js    | `instanceof` vs `typeof` to check types               |
 | 380-equality-with-arrays.js    | Arrays are compared by reference, not value           |
+| 381-array-flat.js              | `flat(n)` flattens an array up to depth `n`            |
+| 382-array-flat-infinity.js     | `flat(Infinity)` completely flattens nested arrays     |
+| 383-array-from-set.js          | Convert `Set` to `Array` using `Array.from()`          |
+| 384-object-keys-order.js       | Integer keys are ordered numerically in objects        |
+| 385-in-operator.js             | Checks if a property/index exists in object/array      |
+| 386-delete-array-index.js      | `delete` creates a hole, doesn't change array length   |
+| 387-optional-chaining.js       | Avoids errors when accessing deep nested properties    |
+| 388-nullish-coalescing.js      | `??` returns right side only if left is `null`/`undefined` |
+| 389-label-loop-break.js        | Use labels to break nested loops                      |
+| 390-generator-function.js      | `function*` creates a generator that yields values     |
+
 
 
 
