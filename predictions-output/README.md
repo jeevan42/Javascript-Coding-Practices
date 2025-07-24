@@ -396,6 +396,17 @@ This folder contains **prediction-based JS snippets** often asked in interviews.
 | 388-nullish-coalescing.js      | `??` returns right side only if left is `null`/`undefined` |
 | 389-label-loop-break.js        | Use labels to break nested loops                      |
 | 390-generator-function.js      | `function*` creates a generator that yields values     |
+| 391-async-function-return.js   | Async functions return Promises                          |
+| 392-await-non-promise.js       | Await can be used on non-promises too                    |
+| 393-async-await-error.js       | Errors in async functions are caught with `.catch()`     |
+| 394-promise-all.js             | `Promise.all()` resolves when all promises resolve       |
+| 395-promise-race.js            | `Promise.race()` resolves/rejects with first settled one |
+| 396-settimeout-0.js            | `setTimeout(..., 0)` runs after current call stack       |
+| 397-async-loop-trap.js         | `var` causes closure issues inside async loops           |
+| 398-async-loop-let.js          | `let` scopes each iteration correctly in loops           |
+| 399-await-in-loop.js           | Awaiting inside loop runs sequentially                   |
+| 400-top-level-await.mjs        | Top-level `await` works in modules (`.mjs`)              |
+
 
 
 
