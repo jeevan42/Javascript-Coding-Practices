@@ -406,6 +406,16 @@ This folder contains **prediction-based JS snippets** often asked in interviews.
 | 398-async-loop-let.js          | `let` scopes each iteration correctly in loops           |
 | 399-await-in-loop.js           | Awaiting inside loop runs sequentially                   |
 | 400-top-level-await.mjs        | Top-level `await` works in modules (`.mjs`)              |
+| 401-class-basic.js             | Class with constructor and method                     |
+| 402-class-inheritance.js       | Class inheritance and `super()` usage                 |
+| 403-static-method.js           | Static method in a class                              |
+| 404-getter-setter.js           | Using `get` and `set` for properties                  |
+| 405-instanceof-check.js        | `instanceof` checks object constructor                |
+| 406-closure-inside-class.js    | Closure behavior inside class methods                 |
+| 407-class-private-field.js     | Class field using `#` syntax for private fields       |
+| 408-class-expression.js        | Anonymous class expression                            |
+| 409-bound-method.js            | Method binding to preserve `this`                    |
+| 410-object-from-entries.js     | Create object from key-value pairs using `.fromEntries()` |
 
 
 
