@@ -416,6 +416,18 @@ This folder contains **prediction-based JS snippets** often asked in interviews.
 | 408-class-expression.js        | Anonymous class expression                            |
 | 409-bound-method.js            | Method binding to preserve `this`                    |
 | 410-object-from-entries.js     | Create object from key-value pairs using `.fromEntries()` |
+| 411 | `array-find-vs-filter.js`         | Demonstrates the difference between `.find()` (returns first match) and `.filter()` (returns all matches). |
+| 412 | `array-sort-without-compare.js`   | `.sort()` converts elements to strings by default, leading to unexpected results with numbers. |
+| 413 | `null-equality.js`                | Shows how `null == undefined` is `true`, but `null === undefined` is `false`. |
+| 414 | `async-function-return.js`        | An async function always returns a Promise, even if you `return` a value. |
+| 415 | `function-name-property.js`       | Named function expressions retain their internal name in the `.name` property. |
+| 416 | `promise-finally.js`              | `.finally()` runs cleanup logic regardless of promise success or failure. |
+| 417 | `json-parse-extra-comma.js`       | JSON does not support trailing commas; will throw an error when parsed. |
+| 418 | `typeof-nan.js`                   | `typeof NaN` returns `'number'`, showing its quirky classification in JS. |
+| 419 | `bigint-limits.js`                | Demonstrates usage of `BigInt` to handle numbers beyond safe integer limits. |
+| 420 | `array-isarray-vs-instanceof.js`  | Two reliable ways to check if a value is an array in JavaScript. |
+
+
 
 
 
