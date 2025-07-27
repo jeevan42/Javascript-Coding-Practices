@@ -425,7 +425,17 @@ This folder contains **prediction-based JS snippets** often asked in interviews.
 | 417 | `json-parse-extra-comma.js`       | JSON does not support trailing commas; will throw an error when parsed. |
 | 418 | `typeof-nan.js`                   | `typeof NaN` returns `'number'`, showing its quirky classification in JS. |
 | 419 | `bigint-limits.js`                | Demonstrates usage of `BigInt` to handle numbers beyond safe integer limits. |
-| 420 | `array-isarray-vs-instanceof.js`  | Two reliable ways to check if a value is an array in JavaScript. |
+| 420 | `array-isarray-vs-instanceof.js`  | Two reliable ways to check if a value is an array in JavaScript. |                             
+| 421 | `array-clone-structured.js`       | Uses `structuredClone()` for deep cloning of objects (modern browsers).    |
+| 422 | `parseint-vs-number.js`           | Demonstrates how `parseInt` and `Number` handle strings differently.       |
+| 423 | `optional-chaining.js`            | Safely access deeply nested properties using `?.` operator.                |
+| 424 | `boolean-double-negation.js`      | Uses `!!` to explicitly convert values to booleans.                        |
+| 425 | `object-key-order.js`             | Shows how JavaScript orders object keys numerically first.                |
+| 426 | `loop-return-label.js`            | Uses labeled blocks to break from nested loops.                           |
+| 427 | `math-random-range.js`            | Returns a random integer between two values (inclusive).                  |
+| 428 | `string-reverse.js`               | Simple function to reverse a string using split-reverse-join.             |
+| 429 | `destructure-nested-object.js`    | Extract nested properties using object destructuring.                     |
+| 430 | `array-empty-vs-length.js`        | Shows how setting an index creates sparse arrays with unexpected lengths. |
 
 
 
