@@ -435,8 +435,17 @@ This folder contains **prediction-based JS snippets** often asked in interviews.
 | 427 | `math-random-range.js`            | Returns a random integer between two values (inclusive).                  |
 | 428 | `string-reverse.js`               | Simple function to reverse a string using split-reverse-join.             |
 | 429 | `destructure-nested-object.js`    | Extract nested properties using object destructuring.                     |
-| 430 | `array-empty-vs-length.js`        | Shows how setting an index creates sparse arrays with unexpected lengths. |
-
+| 430 | `array-empty-vs-length.js`        | Shows how setting an index creates sparse arrays with unexpected lengths. |                  
+| 431 | `431-promise-resolve-then.js`     | `Promise.resolve()` executes `.then()` asynchronously.                      |
+| 432 | `432-null-instanceof-object.js`   | `null` is not an instance of `Object`.                                      |
+| 433 | `433-array-concat-non-array.js`   | `.concat()` works with non-arrays as single values.                         |
+| 434 | `434-symbol-tostring.js`          | Symbols have a `toString()` method for logging.                             |
+| 435 | `435-set-to-array.js`             | Use spread `[...]` to convert a `Set` to an array.                          |
+| 436 | `436-object-values-order.js`      | `Object.values()` preserves insertion order.                                |
+| 437 | `437-for-await-of-array.js`       | `for await...of` supports async iterables like Promises.                    |
+| 438 | `438-regex-lastindex.js`          | Regex with `g` flag updates `.lastIndex` on each test.                      |
+| 439 | `439-array-every-empty.js`        | `.every()` on an empty array always returns `true`.                         |
+| 440 | `440-float-precision.js`          | JS has float precision errors (`0.1 + 0.2 !== 0.3`).                         |
 
 
 
