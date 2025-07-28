@@ -1,0 +1,1 @@
+console.log([].every(x => x > 0)); // true
