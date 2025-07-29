@@ -445,9 +445,17 @@ This folder contains **prediction-based JS snippets** often asked in interviews.
 | 437 | `437-for-await-of-array.js`       | `for await...of` supports async iterables like Promises.                    |
 | 438 | `438-regex-lastindex.js`          | Regex with `g` flag updates `.lastIndex` on each test.                      |
 | 439 | `439-array-every-empty.js`        | `.every()` on an empty array always returns `true`.                         |
-| 440 | `440-float-precision.js`          | JS has float precision errors (`0.1 + 0.2 !== 0.3`).                         |
-
-
+| 440 | `440-float-precision.js`          | JS has float precision errors (`0.1 + 0.2 !== 0.3`).                         |                                    
+| 441 | `string-replace-all.js`          | Replace all occurrences of a substring using `replaceAll()`             |
+| 442 | `json-stringify-replacer.js`     | Use `JSON.stringify` with a replacer array to filter keys               |
+| 443 | `boolean-object-truthy.js`       | `new Boolean(false)` is truthy, so condition passes                     |
+| 444 | `array-sparse-length.js`         | Setting a high index creates sparse arrays with increased length        |
+| 445 | `in-operator-vs-hasown.js`       | `in` checks inherited props, `hasOwnProperty` checks own only           |
+| 446 | `instanceof-custom.js`           | Use `instanceof` to check object type against a class                   |
+| 447 | `symbol-non-enumerable.js`       | Symbol keys are not enumerable via `Object.keys()`                      |
+| 448 | `array-reduce-no-init.js`        | `reduce()` without initial value uses first element as accumulator      |
+| 449 | `delete-array-element.js`        | `delete` removes value but keeps array length with empty slot           |
+| 450 | `string-padstart.js`             | Pad the start of a string to reach target length                        |
 
 
 
