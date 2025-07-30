@@ -455,9 +455,17 @@ This folder contains **prediction-based JS snippets** often asked in interviews.
 | 447 | `symbol-non-enumerable.js`       | Symbol keys are not enumerable via `Object.keys()`                      |
 | 448 | `array-reduce-no-init.js`        | `reduce()` without initial value uses first element as accumulator      |
 | 449 | `delete-array-element.js`        | `delete` removes value but keeps array length with empty slot           |
-| 450 | `string-padstart.js`             | Pad the start of a string to reach target length                        |
-
-
+| 450 | `string-padstart.js`             | Pad the start of a string to reach target length                        |                       
+| 451 | `optional-chaining.js`      | Safe property access using `?.`.                                 |
+| 452 | `nullish-coalescing.js`     | Use `??` to fallback only for `null` or `undefined`.             |
+| 453 | `object-hasown.js`          | Safer object key check with `Object.hasOwn()`.                   |
+| 454 | `array-at-method.js`        | Access array items using `.at()` (including negative index).     |
+| 455 | `object-groupby.js`         | Group array objects by a property.                               |
+| 456 | `logical-assignment.js`     | Use logical assignment operators like `||=`, `&&=`, `??=`.        |
+| 457 | `array-some.js`             | Check if some elements pass a condition.                         |
+| 458 | `object-destructuring.js`   | Destructure objects with default values.                         |
+| 459 | `remove-duplicates.js`      | Remove duplicates from array using `Set`.                        |
+| 460 | `array-sort-numeric.js`     | Proper numeric array sorting with compare function.              |
 
 
 
