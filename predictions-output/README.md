@@ -416,46 +416,46 @@ This folder contains **prediction-based JS snippets** often asked in interviews.
 | 408-class-expression.js        | Anonymous class expression                            |
 | 409-bound-method.js            | Method binding to preserve `this`                    |
 | 410-object-from-entries.js     | Create object from key-value pairs using `.fromEntries()` |
-| 411 | `array-find-vs-filter.js`         | Demonstrates the difference between `.find()` (returns first match) and `.filter()` (returns all matches). |
-| 412 | `array-sort-without-compare.js`   | `.sort()` converts elements to strings by default, leading to unexpected results with numbers. |
-| 413 | `null-equality.js`                | Shows how `null == undefined` is `true`, but `null === undefined` is `false`. |
-| 414 | `async-function-return.js`        | An async function always returns a Promise, even if you `return` a value. |
-| 415 | `function-name-property.js`       | Named function expressions retain their internal name in the `.name` property. |
-| 416 | `promise-finally.js`              | `.finally()` runs cleanup logic regardless of promise success or failure. |
-| 417 | `json-parse-extra-comma.js`       | JSON does not support trailing commas; will throw an error when parsed. |
-| 418 | `typeof-nan.js`                   | `typeof NaN` returns `'number'`, showing its quirky classification in JS. |
-| 419 | `bigint-limits.js`                | Demonstrates usage of `BigInt` to handle numbers beyond safe integer limits. |
-| 420 | `array-isarray-vs-instanceof.js`  | Two reliable ways to check if a value is an array in JavaScript. |                             
-| 421 | `array-clone-structured.js`       | Uses `structuredClone()` for deep cloning of objects (modern browsers).    |
-| 422 | `parseint-vs-number.js`           | Demonstrates how `parseInt` and `Number` handle strings differently.       |
-| 423 | `optional-chaining.js`            | Safely access deeply nested properties using `?.` operator.                |
-| 424 | `boolean-double-negation.js`      | Uses `!!` to explicitly convert values to booleans.                        |
-| 425 | `object-key-order.js`             | Shows how JavaScript orders object keys numerically first.                |
-| 426 | `loop-return-label.js`            | Uses labeled blocks to break from nested loops.                           |
-| 427 | `math-random-range.js`            | Returns a random integer between two values (inclusive).                  |
-| 428 | `string-reverse.js`               | Simple function to reverse a string using split-reverse-join.             |
-| 429 | `destructure-nested-object.js`    | Extract nested properties using object destructuring.                     |
-| 430 | `array-empty-vs-length.js`        | Shows how setting an index creates sparse arrays with unexpected lengths. |                  
-| 431 | `431-promise-resolve-then.js`     | `Promise.resolve()` executes `.then()` asynchronously.                      |
-| 432 | `432-null-instanceof-object.js`   | `null` is not an instance of `Object`.                                      |
-| 433 | `433-array-concat-non-array.js`   | `.concat()` works with non-arrays as single values.                         |
-| 434 | `434-symbol-tostring.js`          | Symbols have a `toString()` method for logging.                             |
-| 435 | `435-set-to-array.js`             | Use spread `[...]` to convert a `Set` to an array.                          |
-| 436 | `436-object-values-order.js`      | `Object.values()` preserves insertion order.                                |
-| 437 | `437-for-await-of-array.js`       | `for await...of` supports async iterables like Promises.                    |
-| 438 | `438-regex-lastindex.js`          | Regex with `g` flag updates `.lastIndex` on each test.                      |
-| 439 | `439-array-every-empty.js`        | `.every()` on an empty array always returns `true`.                         |
-| 440 | `440-float-precision.js`          | JS has float precision errors (`0.1 + 0.2 !== 0.3`).                         |                                    
-| 441 | `string-replace-all.js`          | Replace all occurrences of a substring using `replaceAll()`             |
-| 442 | `json-stringify-replacer.js`     | Use `JSON.stringify` with a replacer array to filter keys               |
-| 443 | `boolean-object-truthy.js`       | `new Boolean(false)` is truthy, so condition passes                     |
-| 444 | `array-sparse-length.js`         | Setting a high index creates sparse arrays with increased length        |
-| 445 | `in-operator-vs-hasown.js`       | `in` checks inherited props, `hasOwnProperty` checks own only           |
-| 446 | `instanceof-custom.js`           | Use `instanceof` to check object type against a class                   |
-| 447 | `symbol-non-enumerable.js`       | Symbol keys are not enumerable via `Object.keys()`                      |
-| 448 | `array-reduce-no-init.js`        | `reduce()` without initial value uses first element as accumulator      |
-| 449 | `delete-array-element.js`        | `delete` removes value but keeps array length with empty slot           |
-| 450 | `string-padstart.js`             | Pad the start of a string to reach target length                        |                       
+| 411-array-find-vs-filter.js      | Difference between `.find()` and `.filter()`                                  |
+| 412-array-sort-without-compare.js| `.sort()` converts values to strings, causing numeric issues                  |
+| 413-null-equality.js             | `null == undefined` is `true`, but `===` is `false`                           |
+| 414-async-function-return.js     | Async functions always return a Promise                                       |
+| 415-function-name-property.js    | Named function expressions retain name via `.name`                            |
+| 416-promise-finally.js           | `.finally()` runs regardless of resolve or reject                             |
+| 417-json-parse-extra-comma.js    | JSON doesn't support trailing commas                                          |
+| 418-typeof-nan.js                | `typeof NaN` returns `'number'`                                               |
+| 419-bigint-limits.js             | Use `BigInt` for safe handling of very large numbers                          |
+| 420-array-isarray-vs-instanceof.js | Compare `Array.isArray()` and `instanceof Array`                             |
+| 421-array-clone-structured.js    | Deep cloning using `structuredClone()`                                       |
+| 422-parseint-vs-number.js        | Difference between `parseInt()` and `Number()` for strings                   |
+| 423-optional-chaining.js         | Safe access to nested properties using `?.`                                   |
+| 424-boolean-double-negation.js   | Convert any value to boolean using `!!`                                       |
+| 425-object-key-order.js          | Object key ordering puts numeric keys first                                   |
+| 426-loop-return-label.js         | Use labeled blocks to break from nested loops                                 |
+| 427-math-random-range.js         | Get random integer between two values inclusive                               |
+| 428-string-reverse.js            | Reverse string using split-reverse-join                                       |
+| 429-destructure-nested-object.js | Destructure deeply nested object properties                                   |
+| 430-array-empty-vs-length.js     | Sparse arrays created by setting index directly                               |
+| 431-promise-resolve-then.js      | `Promise.resolve()` executes `.then()` asynchronously                         |
+| 432-null-instanceof-object.js    | `null instanceof Object` is `false`                                           |
+| 433-array-concat-non-array.js    | `.concat()` with non-array adds as single element                             |
+| 434-symbol-tostring.js           | Symbols can be stringified with `.toString()`                                 |
+| 435-set-to-array.js              | Convert `Set` to array with `[...set]`                                        |
+| 436-object-values-order.js       | `Object.values()` preserves insertion order                                   |
+| 437-for-await-of-array.js        | `for await...of` works with async iterables                                   |
+| 438-regex-lastindex.js           | Global RegExp updates `.lastIndex` across uses                                |
+| 439-array-every-empty.js         | `.every()` on empty array returns `true`                                      |
+| 440-float-precision.js           | JS float precision quirk: `0.1 + 0.2 !== 0.3`                                  |
+| 441-string-replace-all.js        | Use `replaceAll()` to replace all substrings                                 |
+| 442-json-stringify-replacer.js   | Use `JSON.stringify()` with replacer array to filter keys                     |
+| 443-boolean-object-truthy.js     | `new Boolean(false)` is truthy in conditionals                                |
+| 444-array-sparse-length.js       | Setting high index increases array length (sparse array)                      |
+| 445-in-operator-vs-hasown.js     | Difference between `in` and `hasOwnProperty()`                                |
+| 446-instanceof-custom.js         | `instanceof` works with custom class checks                                   |
+| 447-symbol-non-enumerable.js     | Symbol keys are not enumerable via `Object.keys()`                            |
+| 448-array-reduce-no-init.js      | `reduce()` without initial value uses first item                              |
+| 449-delete-array-element.js      | `delete` removes value but leaves `empty` slot                                |
+| 450-string-padstart.js           | Use `.padStart()` to left-pad strings to fixed length                         | 
 | 451 | `optional-chaining.js`      | Safe property access using `?.`.                                 |
 | 452 | `nullish-coalescing.js`     | Use `??` to fallback only for `null` or `undefined`.             |
 | 453 | `object-hasown.js`          | Safer object key check with `Object.hasOwn()`.                   |
