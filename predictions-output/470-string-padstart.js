@@ -1,0 +1,1 @@
+console.log('5'.padStart(3, '0')); // "005"
