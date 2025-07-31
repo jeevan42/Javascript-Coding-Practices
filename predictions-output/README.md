@@ -466,16 +466,16 @@ This folder contains **prediction-based JS snippets** often asked in interviews.
 | 458 | `object-destructuring.js`   | Destructure objects with default values.                         |
 | 459 | `remove-duplicates.js`      | Remove duplicates from array using `Set`.                        |
 | 460 | `array-sort-numeric.js`     | Proper numeric array sorting with compare function.              |
-| 461 | 461-array-sort-numeric.js         | Sort numbers in an array numerically    |
-| 462 | 462-object-property-check.js      | Check if property exists in an object   |
-| 463 | 463-string-replace-all.js         | Replace all occurrences in a string     |
-| 464 | 464-array-filter-truthy.js        | Filter truthy values from an array      |
-| 465 | 465-parsefloat-int.js             | Difference between parseInt and parseFloat |
-| 466 | 466-object-fromarray-reduce.js    | Create object from array using reduce   |
-| 467 | 467-array-isarray.js              | Check if a variable is an array         |
-| 468 | 468-nan-comparison.js             | Proper comparison of NaN values         |
-| 469 | 469-json-parse-error.js           | Handle JSON parsing errors              |
-| 470 | 470-string-padstart.js            | Pad string from start to fixed length   |
+| 461-array-sort-numeric.js      | Sort numbers in an array numerically         |
+| 462-object-property-check.js   | Check if property exists in an object        |
+| 463-string-replace-all.js      | Replace all occurrences in a string          |
+| 464-array-filter-truthy.js     | Filter truthy values from an array           |
+| 465-parsefloat-int.js          | Difference between parseInt and parseFloat   |
+| 466-object-fromarray-reduce.js | Create object from array using reduce        |
+| 467-array-isarray.js           | Check if a variable is an array              |
+| 468-nan-comparison.js          | Proper comparison of NaN values              |
+| 469-json-parse-error.js        | Handle JSON parsing errors                   |
+| 470-string-padstart.js         | Pad string from start to fixed length        |
 
 
 ## 🧠 How to Use
