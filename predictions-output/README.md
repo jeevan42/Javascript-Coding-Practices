@@ -476,7 +476,16 @@ This folder contains **prediction-based JS snippets** often asked in interviews.
 | 468-nan-comparison.js          | Proper comparison of NaN values              |
 | 469-json-parse-error.js        | Handle JSON parsing errors                   |
 | 470-string-padstart.js         | Pad string from start to fixed length        |
-
+| 471-array-includes-vs-indexof.js | `includes()` vs `indexOf()` for checking values |
+| 472-nullish-coalescing.js        | `??` nullish coalescing operator                |
+| 473-optional-chaining.js         | `?.` optional chaining                          |
+| 474-map-vs-foreach.js            | Difference between `.map()` and `.forEach()`    |
+| 475-async-await-return.js        | `async` functions always return a Promise       |
+| 476-array-reduce-sum.js          | Use `.reduce()` to sum array values             |
+| 477-parseint-radix.js            | Importance of radix in `parseInt()`             |
+| 478-set-uniques.js               | Using `Set` to get unique values from array     |
+| 479-object-destructuring.js      | Object destructuring                            |
+| 480-function-default-params.js   | Default parameters in functions                 |
 
 ## 🧠 How to Use
 
