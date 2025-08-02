@@ -486,6 +486,16 @@ This folder contains **prediction-based JS snippets** often asked in interviews.
 | 478-set-uniques.js               | Using `Set` to get unique values from array     |
 | 479-object-destructuring.js      | Object destructuring                            |
 | 480-function-default-params.js   | Default parameters in functions                 |
+| 481-boolean-conversion.js    | Convert values to boolean using !!              |
+| 482-array-flatten.js         | Flatten nested arrays using flat()              |
+| 483-object-keys-length.js    | Count object keys using Object.keys().length    |
+| 484-template-literals.js     | Use template literals for string interpolation  |
+| 485-try-catch-error.js       | Handle runtime errors with try-catch            |
+| 486-string-trim.js           | Trim whitespace using trim()                    |
+| 487-array-find.js            | Find first match in array using find()          |
+| 488-array-from.js            | Convert iterable or array-like to array using Array.from() |
+| 489-number-isfinite.js       | Check if value is finite using Number.isFinite()|
+| 490-object-entries.js        | Convert object to key-value pairs with Object.entries() |
 
 ## 🧠 How to Use
 
