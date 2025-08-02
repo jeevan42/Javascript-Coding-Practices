@@ -496,6 +496,17 @@ This folder contains **prediction-based JS snippets** often asked in interviews.
 | 488-array-from.js            | Convert iterable or array-like to array using Array.from() |
 | 489-number-isfinite.js       | Check if value is finite using Number.isFinite()|
 | 490-object-entries.js        | Convert object to key-value pairs with Object.entries() |
+| 491-array-reduce-sum.js      | Sum array elements using reduce()                    |
+| 492-object-values.js         | Extract object values using Object.values()          |
+| 493-optional-chaining.js     | Safely access nested properties using ?.             |
+| 494-nullish-coalescing.js    | Use ?? to handle null or undefined                   |
+| 495-string-padstart.js       | Pad string from start using padStart()               |
+| 496-string-padend.js         | Pad string from end using padEnd()                   |
+| 497-map-basics.js            | Create and use a Map object                          |
+| 498-set-basics.js            | Create and use a Set object                          |
+| 499-object-hasown.js         | Check property existence using Object.hasOwn()       |
+| 500-boolean-toggle.js        | Toggle a boolean value                               |
+
 
 ## 🧠 How to Use
 
