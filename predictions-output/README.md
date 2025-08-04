@@ -506,7 +506,16 @@ This folder contains **prediction-based JS snippets** often asked in interviews.
 | 498-set-basics.js            | Create and use a Set object                          |
 | 499-object-hasown.js         | Check property existence using Object.hasOwn()       |
 | 500-boolean-toggle.js        | Toggle a boolean value                               |
-
+| 501-map-object-entries.js       | Iterate object using `Object.entries()` with `map` |
+| 502-array-deduplicate-set.js    | Remove duplicates from an array using `Set`        |
+| 503-function-default-param.js   | Default function parameters                        |
+| 504-string-template-literals.js | Using template literals for string construction    |
+| 505-number-to-fixed.js          | Format number to fixed decimal places              |
+| 506-array-splice-vs-slice.js    | Difference between `splice` and `slice`            |
+| 507-object-destructuring.js     | Destructuring properties from an object            |
+| 508-array-find-vs-filter.js     | `find()` vs `filter()` on arrays                   |
+| 509-date-formatting.js          | Format a date into DD/MM/YYYY format               |
+| 510-async-await-error.js        | Handle async/await with `try/catch`                |
 
 ## 🧠 How to Use
 
