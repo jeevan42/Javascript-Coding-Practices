@@ -516,6 +516,17 @@ This folder contains **prediction-based JS snippets** often asked in interviews.
 | 508-array-find-vs-filter.js     | `find()` vs `filter()` on arrays                   |
 | 509-date-formatting.js          | Format a date into DD/MM/YYYY format               |
 | 510-async-await-error.js        | Handle async/await with `try/catch`                |
+| 511-array-length-vs-index.js   | Difference between `.length` and highest index |
+| 512-float-modulo-issue.js      | Floating-point modulo precision issue         |
+| 513-symbol-unique.js           | Every Symbol is unique                       |
+| 514-json-stringify-replacer.js | Customize `JSON.stringify()` with replacer    |
+| 515-array-includes-vs-indexof.js| `.includes()` vs `.indexOf()`                 |
+| 516-set-has-performance.js     | `.has()` in Set is faster than in Array       |
+| 517-promise-chaining.js        | Chaining `.then()` in Promises                |
+| 518-math-max-apply.js          | Use `Math.max` on array with `apply`          |
+| 519-function-arguments-length.js| `.length` of function vs `arguments.length`   |
+| 520-object-hasown.js           | `Object.hasOwn()` vs `hasOwnProperty()`       |
+
 
 ## 🧠 How to Use
 
