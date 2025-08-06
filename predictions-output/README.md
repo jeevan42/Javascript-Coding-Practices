@@ -526,6 +526,16 @@ This folder contains **prediction-based JS snippets** often asked in interviews.
 | 518-math-max-apply.js          | Use `Math.max` on array with `apply`          |
 | 519-function-arguments-length.js| `.length` of function vs `arguments.length`   |
 | 520-object-hasown.js           | `Object.hasOwn()` vs `hasOwnProperty()`       |
+| 521-capitalize-words.js        | Capitalize first letter of each word in string |
+| 522-count-vowels.js            | Count vowels in a string                        |
+| 523-remove-duplicates-array.js | Remove duplicate elements from an array         |
+| 524-is-empty-object.js         | Check if an object is empty                     |
+| 525-get-file-extension.js      | Extract file extension from filename            |
+| 526-truncate-string.js         | Truncate a string with ellipsis                 |
+| 527-deep-clone.js              | Deep clone an object using JSON                 |
+| 528-object-from-pairs.js       | Convert array of pairs to object                |
+| 529-is-palindrome.js           | Check if a string is a palindrome               |
+| 530-merge-objects.js           | Merge two objects into one                      |
 
 
 ## 🧠 How to Use
