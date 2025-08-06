@@ -536,7 +536,16 @@ This folder contains **prediction-based JS snippets** often asked in interviews.
 | 528-object-from-pairs.js       | Convert array of pairs to object                |
 | 529-is-palindrome.js           | Check if a string is a palindrome               |
 | 530-merge-objects.js           | Merge two objects into one                      |
-
+| 531-object-values.js             | Get values of an object using `Object.values()`  |
+| 532-object-entries.js            | Convert object to array of key-value pairs       |
+| 533-array-includes.js            | Check if an array includes a value               |
+| 534-array-concat.js              | Merge arrays using `concat()`                    |
+| 535-object-seal.js               | Prevent new properties but allow modifications   |
+| 536-object-freeze.js             | Make an object completely immutable              |
+| 537-nullish-coalescing.js        | Use `??` operator for default values             |
+| 538-optional-chaining.js         | Use `?.` to safely access nested properties      |
+| 539-array-length-truncate.js     | Truncate array by setting `.length`              |
+| 540-json-stringify-replacer.js   | Filter JSON.stringify() output using replacer    |
 
 ## 🧠 How to Use
 
