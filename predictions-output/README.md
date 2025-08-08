@@ -546,6 +546,16 @@ This folder contains **prediction-based JS snippets** often asked in interviews.
 | 538-optional-chaining.js         | Use `?.` to safely access nested properties      |
 | 539-array-length-truncate.js     | Truncate array by setting `.length`              |
 | 540-json-stringify-replacer.js   | Filter JSON.stringify() output using replacer    |
+| 541-array-concat.js              | Concatenate two arrays                      |
+| 542-object-hasownproperty.js     | Check if object has specific property       |
+| 543-string-search.js             | Search for substring in a string            |
+| 544-array-map-index.js           | Map array with index                        |
+| 545-typeof-null.js               | `typeof null` returns 'object' quirk        |
+| 546-array-reduce-sum.js          | Sum array values using `reduce`             |
+| 547-object-values-length.js      | Get number of properties in object          |
+| 548-string-uppercase.js          | Convert string to uppercase                 |
+| 549-array-find-object.js         | Find object in array by key                 |
+| 550-object-merge.js              | Merge two objects using spread operator     |
 
 ## 🧠 How to Use
 
