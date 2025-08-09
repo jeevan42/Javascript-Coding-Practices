@@ -556,6 +556,16 @@ This folder contains **prediction-based JS snippets** often asked in interviews.
 | 548-string-uppercase.js          | Convert string to uppercase                 |
 | 549-array-find-object.js         | Find object in array by key                 |
 | 550-object-merge.js              | Merge two objects using spread operator     |
+| 551-array-flat.js                | Flatten nested arrays                        |
+| 552-object-entries.js            | Convert object to key-value pairs            |
+| 553-string-trim.js               | Remove whitespace from both ends of string   |
+| 554-array-includes.js            | Check if array contains a value              |
+| 555-optional-chaining-call.js    | Safely call function using optional chaining |
+| 556-object-assign.js             | Copy properties from source to target object |
+| 557-string-repeat.js             | Repeat a string multiple times               |
+| 558-array-some.js                | Check if some array elements pass a test     |
+| 559-number-isfinite.js           | Check if a value is a finite number          |
+| 560-object-freeze.js             | Make object immutable using `Object.freeze`  |
 
 ## 🧠 How to Use
 
