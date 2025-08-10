@@ -566,6 +566,18 @@ This folder contains **prediction-based JS snippets** often asked in interviews.
 | 558-array-some.js                | Check if some array elements pass a test     |
 | 559-number-isfinite.js           | Check if a value is a finite number          |
 | 560-object-freeze.js             | Make object immutable using `Object.freeze`  |
+| 561-array-every.js               | Check if all array elements pass a test          |
+| 562-object-seal.js               | Prevent adding/removing properties but allow edit|
+| 563-string-startswith.js         | Check if string starts with given substring      |
+| 564-string-endswith.js           | Check if string ends with given substring        |
+| 565-number-parsefloat.js         | Parse a string into a floating-point number      |
+| 566-number-parseint.js           | Parse a string into an integer                   |
+| 567-array-fill.js                | Fill all array elements with a static value      |
+| 568-object-fromentries.js        | Convert key-value pairs array into an object     |
+| 569-string-includes.js           | Check if a string contains a substring           |
+| 570-number-isinteger.js          | Check if a value is an integer                   |
+
+
 
 ## 🧠 How to Use
 
