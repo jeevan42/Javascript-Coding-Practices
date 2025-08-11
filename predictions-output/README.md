@@ -576,6 +576,16 @@ This folder contains **prediction-based JS snippets** often asked in interviews.
 | 568-object-fromentries.js        | Convert key-value pairs array into an object     |
 | 569-string-includes.js           | Check if a string contains a substring           |
 | 570-number-isinteger.js          | Check if a value is an integer                   |
+| 571-array-some.js                | Check if any array element passes a test           |
+| 572-object-freeze.js             | Prevent any changes to object properties           |
+| 573-string-repeat.js             | Repeat a string multiple times                     |
+| 574-array-flat.js                 | Flatten nested arrays to given depth               |
+| 575-array-flatmap.js              | Map and flatten array in one step                  |
+| 576-string-trim.js               | Remove whitespace from both ends of a string       |
+| 577-string-trimstart.js          | Remove whitespace from start of a string           |
+| 578-string-trimend.js            | Remove whitespace from end of a string             |
+| 579-number-issafeinteger.js      | Check if a number is a safe integer                 |
+| 580-math-clz32.js                 | Count leading zero bits of 32-bit integer          |
 
 
 
