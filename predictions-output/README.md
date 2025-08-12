@@ -586,6 +586,16 @@ This folder contains **prediction-based JS snippets** often asked in interviews.
 | 578-string-trimend.js            | Remove whitespace from end of a string             |
 | 579-number-issafeinteger.js      | Check if a number is a safe integer                 |
 | 580-math-clz32.js                 | Count leading zero bits of 32-bit integer          |
+| 581-math-imul.js                  | Perform 32-bit integer multiplication              |
+| 582-math-log10.js                 | Get base-10 logarithm of a number                  |
+| 583-math-log2.js                  | Get base-2 logarithm of a number                   |
+| 584-math-log1p.js                 | Natural log of (1 + number)                        |
+| 585-math-expm1.js                 | e^x - 1 calculation                                |
+| 586-math-hypot.js                 | Calculate square root of sum of squares            |
+| 587-array-copywithin.js           | Copy array elements within the same array          |
+| 588-array-from.js                 | Create array from iterable or array-like object    |
+| 589-array-of.js                   | Create array from arguments                        |
+| 590-object-assign.js              | Copy properties from one object to another         |
 
 
 
