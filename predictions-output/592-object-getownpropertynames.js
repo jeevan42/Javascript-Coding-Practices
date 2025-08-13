@@ -1,0 +1,3 @@
+const obj = { a: 1, b: 2 };
+
+console.log(Object.getOwnPropertyNames(obj)); // ['a', 'b']
