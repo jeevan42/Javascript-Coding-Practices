@@ -596,7 +596,16 @@ This folder contains **prediction-based JS snippets** often asked in interviews.
 | 588-array-from.js                 | Create array from iterable or array-like object    |
 | 589-array-of.js                   | Create array from arguments                        |
 | 590-object-assign.js              | Copy properties from one object to another         |
-
+| 591-object-entries.js             | Get array of key-value pairs from object           |
+| 592-object-getownpropertynames.js | Get all property names of object                   |
+| 593-object-getprototypeof.js      | Get prototype of an object                         |
+| 594-object-is.js                  | Compare values for strict equality                 |
+| 595-object-keys.js                | Get array of object's own keys                     |
+| 596-object-preventextensions.js   | Prevent adding new properties to an object         |
+| 597-object-values.js              | Get array of object's own values                   |
+| 598-string-charat.js              | Get character at specific index                    |
+| 599-string-charcodeat.js          | Get UTF-16 code unit at given index                 |
+| 600-string-codepointat.js         | Get Unicode code point at given position           |
 
 
 ## 🧠 How to Use
