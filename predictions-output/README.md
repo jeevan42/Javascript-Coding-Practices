@@ -606,6 +606,16 @@ This folder contains **prediction-based JS snippets** often asked in interviews.
 | 598-string-charat.js              | Get character at specific index                    |
 | 599-string-charcodeat.js          | Get UTF-16 code unit at given index                 |
 | 600-string-codepointat.js         | Get Unicode code point at given position           |
+| 601-string-fromcharcode.js       | Create string from UTF-16 code units               |
+| 602-string-fromcodepoint.js      | Create string from Unicode code points             |
+| 603-string-includes.js           | Check if string contains a substring               |
+| 604-string-indexof.js            | Find index of substring in string                  |
+| 605-string-lastindexof.js        | Find last index of substring in string             |
+| 606-string-localecompare.js      | Compare strings according to locale                 |
+| 607-string-match.js              | Match string with regex                            |
+| 608-string-matchall.js           | Get all regex matches with capturing groups        |
+| 609-string-normalize.js          | Normalize Unicode string                           |
+| 610-string-padend.js             | Pad end of string to target length                 |
 
 
 ## 🧠 How to Use
