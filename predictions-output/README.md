@@ -616,6 +616,16 @@ This folder contains **prediction-based JS snippets** often asked in interviews.
 | 608-string-matchall.js           | Get all regex matches with capturing groups        |
 | 609-string-normalize.js          | Normalize Unicode string                           |
 | 610-string-padend.js             | Pad end of string to target length                 |
+| 611-string-search.js             | Search string with regex                           |
+| 612-string-slice.js              | Extract part of a string                           |
+| 613-string-split.js              | Split string into array by separator               |
+| 614-string-startswith.js         | Check if string starts with given substring        |
+| 615-string-substring.js          | Extract substring by start/end indexes             |
+| 616-string-tolocaleLowercase.js  | Convert string to lowercase with locale rules      |
+| 617-string-tolocaleUppercase.js  | Convert string to uppercase with locale rules      |
+| 618-string-tolowercase.js        | Convert string to lowercase                        |
+| 619-string-touppercase.js        | Convert string to uppercase                        |
+| 620-string-toString.js           | Convert String object to string primitive          |
 
 
 ## 🧠 How to Use
