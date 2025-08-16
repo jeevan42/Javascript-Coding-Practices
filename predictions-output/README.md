@@ -626,6 +626,16 @@ This folder contains **prediction-based JS snippets** often asked in interviews.
 | 618-string-tolowercase.js        | Convert string to lowercase                        |
 | 619-string-touppercase.js        | Convert string to uppercase                        |
 | 620-string-toString.js           | Convert String object to string primitive          |
+| 621-string-valueof.js            | Get primitive value of String object               |
+| 622-template-literals.js         | Use template literals with expressions             |
+| 623-array-entries.js             | Get array iterator of index-value pairs            |
+| 624-array-keys.js                | Get array iterator of keys                         |
+| 625-array-values.js              | Get array iterator of values                       |
+| 626-array-findindex.js           | Find index of first element matching condition     |
+| 627-array-fill.js                 | Fill array elements with static value              |
+| 628-array-includes.js            | Check if array contains a value                    |
+| 629-array-tostring.js            | Convert array to string                            |
+| 630-array-join.js                | Join array elements into string with separator     |
 
 
 ## 🧠 How to Use
