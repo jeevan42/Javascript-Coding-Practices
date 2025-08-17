@@ -636,6 +636,16 @@ This folder contains **prediction-based JS snippets** often asked in interviews.
 | 628-array-includes.js            | Check if array contains a value                    |
 | 629-array-tostring.js            | Convert array to string                            |
 | 630-array-join.js                | Join array elements into string with separator     |
+| 631-asyncawait.js        | Async functions always return a Promise. |
+| 632-eventloop.js         | Event loop: async callbacks run after sync code. |
+| 633-hoisting.js          | var declarations are hoisted with `undefined`. |
+| 634-closure.js           | Closures remember outer scope variables. |
+| 635-thisbinding.js       | `this` loses context when function is detached. |
+| 636-promisechain.js      | Promise chaining with error handling. |
+| 637-objectreference.js   | Objects are reference types, not copied by value. |
+| 638-typecoercion.js      | `+` operator with strings triggers concatenation. |
+| 639-undefinednull.js     | null == undefined is true, but null === undefined is false. |
+| 640-iife.js              | IIFE creates its own scope, variables not accessible outside. |
 
 
 ## 🧠 How to Use
