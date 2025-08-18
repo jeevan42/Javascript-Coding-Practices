@@ -646,6 +646,16 @@ This folder contains **prediction-based JS snippets** often asked in interviews.
 | 638-typecoercion.js      | `+` operator with strings triggers concatenation. |
 | 639-undefinednull.js     | null == undefined is true, but null === undefined is false. |
 | 640-iife.js              | IIFE creates its own scope, variables not accessible outside. |
+| 641-temporaldeadzone.js  | let/const in Temporal Dead Zone until initialized. |
+| 642-arraymap.js          | Array.map applies function to each element. |
+| 643-implicitcoercion.js  | `[] + []` coerces arrays to empty strings. |
+| 644-prototypechain.js    | Prototype chain allows method inheritance. |
+| 645-equalitytricky.js    | `==` allows coercion, `===` checks strict equality. |
+| 646-setunique.js         | Set stores unique values, spread returns unique array. |
+| 647-destructuring.js     | Array destructuring with skipped elements. |
+| 648-optionalchaining.js  | Optional chaining avoids errors for missing properties. |
+| 649-nullishcoalescing.js | `??` checks for null/undefined only, not falsy values. |
+| 650-stringtemplate.js    | Template literals allow string interpolation with `${}`. |
 
 
 ## 🧠 How to Use
