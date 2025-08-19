@@ -656,7 +656,16 @@ This folder contains **prediction-based JS snippets** often asked in interviews.
 | 648-optionalchaining.js  | Optional chaining avoids errors for missing properties. |
 | 649-nullishcoalescing.js | `??` checks for null/undefined only, not falsy values. |
 | 650-stringtemplate.js    | Template literals allow string interpolation with `${}`. |
-
+| 651-spreadoperator.js    | Spread `...` expands arrays/objects into elements. |
+| 652-restparameter.js     | Rest `...` collects function arguments into an array. |
+| 653-defaultparams.js     | Function parameters can have default values. |
+| 654-arrayreduce.js       | Array.reduce accumulates values into a single result. |
+| 655-arrayfilter.js       | Array.filter returns elements matching a condition. |
+| 656-arrayfind.js         | Array.find returns the first matching element. |
+| 657-arrayevery.js        | Array.every checks if all elements satisfy a condition. |
+| 658-arraysome.js         | Array.some checks if at least one element matches. |
+| 659-arrayincludes.js     | Array.includes checks if an element exists. |
+| 660-optionalparams.js    | Functions can handle missing arguments gracefully. |
 
 ## 🧠 How to Use
 
