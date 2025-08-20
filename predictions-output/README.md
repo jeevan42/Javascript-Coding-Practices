@@ -666,6 +666,17 @@ This folder contains **prediction-based JS snippets** often asked in interviews.
 | 658-arraysome.js         | Array.some checks if at least one element matches. |
 | 659-arrayincludes.js     | Array.includes checks if an element exists. |
 | 660-optionalparams.js    | Functions can handle missing arguments gracefully. |
+| 661-currying.js          | Currying transforms function with multiple args into nested functions. |
+| 662-functioncomposition.js| Combine functions where output of one is input to another. |
+| 663-purefunction.js      | Pure functions return same output for same input. |
+| 664-impurefunction.js    | Impure functions rely on/modify external state. |
+| 665-memoization.js       | Memoization caches function results for efficiency. |
+| 666-callapplybind.js     | `call`, `apply`, `bind` control `this` and arguments. |
+| 667-eventdelegation.js   | Event delegation leverages bubbling for efficiency. |
+| 668-debounce.js          | Debounce delays function execution until inactivity. |
+| 669-throttle.js          | Throttle ensures function executes at controlled intervals. |
+| 670-generators.js        | Generators (`function*`) yield values lazily using `yield`. |
+
 
 ## 🧠 How to Use
 
