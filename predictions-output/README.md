@@ -676,6 +676,16 @@ This folder contains **prediction-based JS snippets** often asked in interviews.
 | 668-debounce.js          | Debounce delays function execution until inactivity. |
 | 669-throttle.js          | Throttle ensures function executes at controlled intervals. |
 | 670-generators.js        | Generators (`function*`) yield values lazily using `yield`. |
+| 671 | [Async/Await error handling with try/catch](./671-asyncawaiterror.js) |
+| 672 | [Optional chaining (?.) usage](./672-optionalchaining.js) |
+| 673 | [Nullish coalescing (??) operator](./673-nullishcoalescing.js) |
+| 674 | [Array .flat() and .flatMap()](./674-arrayflat.js) |
+| 675 | [Promise.allSettled() vs Promise.all](./675-promiseallsettled.js) |
+| 676 | [WeakSet basics and use-cases](./676-weakset.js) |
+| 677 | [WeakMap for private object data](./677-weakmap.js) |
+| 678 | [Dynamic import() usage](./678-dynamicimport.js) |
+| 679 | [Async Generators (async function*)](./679-generatorasync.js) |
+| 680 | [Proxy objects and traps](./680-proxyobject.js) |
 
 
 ## 🧠 How to Use
