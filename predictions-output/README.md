@@ -696,7 +696,16 @@ This folder contains **prediction-based JS snippets** often asked in interviews.
 | 688-aggregateerror.js    | AggregateError example |
 | 689-numericseparators.js | Numeric separators for readability |
 | 690-objectfromentries.js | Object.fromEntries usage |
-
+| 691-sharedarraybuffer.js | SharedArrayBuffer basics |
+| 692-atomics.js | Using Atomics for thread-safe operations |
+| 693-performanceapi.js | Performance API |
+| 694-intersectionobserver.js | IntersectionObserver for lazy loading |
+| 695-mutationobserver.js | MutationObserver to watch DOM changes |
+| 696-resizeobserver.js | ResizeObserver API |
+| 697-intlpluralrules.js | Intl.PluralRules |
+| 698-intllistformat.js | Intl.ListFormat |
+| 699-intlrelativetimeformat.js | Intl.RelativeTimeFormat |
+| 700-finalizationregistry.js | FinalizationRegistry |
 
 
 ## 🧠 How to Use
