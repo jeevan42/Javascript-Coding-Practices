@@ -706,6 +706,17 @@ This folder contains **prediction-based JS snippets** often asked in interviews.
 | 698-intllistformat.js | Intl.ListFormat |
 | 699-intlrelativetimeformat.js | Intl.RelativeTimeFormat |
 | 700-finalizationregistry.js | FinalizationRegistry |
+| 701-textencoder.js         | Encode text into Uint8Array             |
+| 702-textdecoder.js         | Decode Uint8Array back to string        |
+| 703-dataview.js            | Access ArrayBuffer with DataView        |
+| 704-setprototypeof.js      | Change an object's prototype            |
+| 705-getprototypeof.js      | Get an object's prototype               |
+| 706-reflect-apply.js       | Use Reflect.apply to call a function    |
+| 707-reflect-construct.js   | Use Reflect.construct for object creation |
+| 708-reflect-defineprop.js  | Define property using Reflect           |
+| 709-reflect-deleteprop.js  | Delete property using Reflect           |
+| 710-reflect-ownkeys.js     | List all keys of an object with Reflect |
+
 
 
 ## 🧠 How to Use
