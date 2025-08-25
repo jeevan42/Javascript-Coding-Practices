@@ -716,6 +716,16 @@ This folder contains **prediction-based JS snippets** often asked in interviews.
 | 708-reflect-defineprop.js  | Define property using Reflect           |
 | 709-reflect-deleteprop.js  | Delete property using Reflect           |
 | 710-reflect-ownkeys.js     | List all keys of an object with Reflect |
+| 711-queue-microtask.js   | queueMicrotask basics |
+| 712-navigator-online.js  | navigator.onLine usage |
+| 713-matchmedia.js        | matchMedia API |
+| 714-performance-now.js   | High resolution time with performance.now |
+| 715-btoa-atob.js         | Base64 encode/decode with btoa & atob |
+| 716-textencoder.js       | Encoding text using TextEncoder |
+| 717-textdecoder.js       | Decoding bytes with TextDecoder |
+| 718-history-api.js       | Using History API pushState |
+| 719-beforeunload.js      | beforeunload event handling |
+| 720-clipboard-api.js     | Copying text with Clipboard API |
 
 
 
