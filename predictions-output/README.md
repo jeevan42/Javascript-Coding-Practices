@@ -726,7 +726,16 @@ This folder contains **prediction-based JS snippets** often asked in interviews.
 | 718-history-api.js       | Using History API pushState |
 | 719-beforeunload.js      | beforeunload event handling |
 | 720-clipboard-api.js     | Copying text with Clipboard API |
-
+| 721-date-basics.js | Date basics |
+| 722-date-getters.js | Date getters |
+| 723-date-setters.js | Date setters |
+| 724-date-parse.js | Date.parse |
+| 725-date-now.js | Date.now |
+| 726-date-toISOString.js | Date.toISOString |
+| 727-date-toLocaleString.js | Date.toLocaleString |
+| 728-date-diff.js | Date difference |
+| 729-date-comparison.js | Date comparison |
+| 730-date-custom-format.js | Custom date format |
 
 
 ## 🧠 How to Use
