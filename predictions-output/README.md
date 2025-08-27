@@ -736,6 +736,17 @@ This folder contains **prediction-based JS snippets** often asked in interviews.
 | 728-date-diff.js | Date difference |
 | 729-date-comparison.js | Date comparison |
 | 730-date-custom-format.js | Custom date format |
+| 731-set-basics.js | Set Basics |
+| 732-set-add.js | Adding values to a Set |
+| 733-set-has.js | Checking presence in Set |
+| 734-set-delete.js | Deleting values from Set |
+| 735-set-clear.js | Clearing Set |
+| 736-set-size.js | Size of Set |
+| 737-set-iteration.js | Iterating over Set |
+| 738-set-foreach.js | forEach with Set |
+| 739-set-vs-array.js | Set vs Array |
+| 740-set-convert-array.js | Convert Set to Array |
+
 
 
 ## 🧠 How to Use
