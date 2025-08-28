@@ -746,6 +746,17 @@ This folder contains **prediction-based JS snippets** often asked in interviews.
 | 738-set-foreach.js | forEach with Set |
 | 739-set-vs-array.js | Set vs Array |
 | 740-set-convert-array.js | Convert Set to Array |
+| 741-set-union.js | Union of Sets |
+| 742-set-intersection.js | Intersection of Sets |
+| 743-set-difference.js | Difference of Sets |
+| 744-set-symmetric-difference.js | Symmetric Difference |
+| 745-set-objects.js | Objects in Set |
+| 746-set-reference.js | Object Reference in Set |
+| 747-set-performance.js | Set Performance vs Array |
+| 748-set-weakset.js | WeakSet Intro |
+| 749-set-usecase-unique.js | Removing duplicates using Set |
+| 750-set-usecase-tags.js | Managing unique tags |
+
 
 
 
