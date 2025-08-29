@@ -756,7 +756,16 @@ This folder contains **prediction-based JS snippets** often asked in interviews.
 | 748-set-weakset.js | WeakSet Intro |
 | 749-set-usecase-unique.js | Removing duplicates using Set |
 | 750-set-usecase-tags.js | Managing unique tags |
-
+| 751-navigator-basics.js | Navigator Basics |
+| 752-navigator-useragent.js | User Agent |
+| 753-navigator-language.js | Language |
+| 754-navigator-languages.js | Languages |
+| 755-navigator-online.js | Online/Offline Detection |
+| 756-navigator-cookieenabled.js | Cookies Enabled |
+| 757-navigator-plugins.js | Plugins |
+| 758-navigator-mimetypes.js | MIME Types |
+| 759-navigator-clipboard.js | Clipboard Write |
+| 760-navigator-clipboard-read.js | Clipboard Read |
 
 
 
