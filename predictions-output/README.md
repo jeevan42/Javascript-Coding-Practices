@@ -766,6 +766,16 @@ This folder contains **prediction-based JS snippets** often asked in interviews.
 | 758-navigator-mimetypes.js | MIME Types |
 | 759-navigator-clipboard.js | Clipboard Write |
 | 760-navigator-clipboard-read.js | Clipboard Read |
+| 761-navigator-geolocation.js | Geolocation |
+| 762-navigator-geolocation-watch.js | Geolocation Watch |
+| 763-navigator-media-devices.js | Media Devices |
+| 764-navigator-hardware-concurrency.js | Hardware Concurrency |
+| 765-navigator-device-memory.js | Device Memory |
+| 766-navigator-serviceworker.js | Service Worker Support |
+| 767-navigator-credentials.js | Credentials API |
+| 768-navigator-sendbeacon.js | SendBeacon |
+| 769-navigator-usb.js | USB API |
+| 770-navigator-share.js | Share API |
 
 
 
