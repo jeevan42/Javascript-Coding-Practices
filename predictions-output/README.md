@@ -776,6 +776,16 @@ This folder contains **prediction-based JS snippets** often asked in interviews.
 | 768-navigator-sendbeacon.js | SendBeacon |
 | 769-navigator-usb.js | USB API |
 | 770-navigator-share.js | Share API |
+| 771-navigator-userAgent.js | User Agent |
+| 772-navigator-language.js | Language |
+| 773-navigator-languages.js | Languages |
+| 774-navigator-onLine.js | Online/Offline Detection |
+| 775-navigator-platform.js | Platform |
+| 776-navigator-product.js | Product (Rendering Engine) |
+| 777-navigator-cookiesEnabled.js | Cookies Enabled |
+| 778-navigator-javaEnabled.js | Java Enabled |
+| 779-navigator-vibrate.js | Vibrate API |
+| 780-navigator-clipboard.js | Clipboard API |
 
 
 
