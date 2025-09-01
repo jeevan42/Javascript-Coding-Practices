@@ -786,6 +786,16 @@ This folder contains **prediction-based JS snippets** often asked in interviews.
 | 778-navigator-javaEnabled.js | Java Enabled |
 | 779-navigator-vibrate.js | Vibrate API |
 | 780-navigator-clipboard.js | Clipboard API |
+| 781-navigator-mediaDevices.js | Media Devices (Camera/Microphone) |
+| 782-navigator-geolocation.js | Geolocation |
+| 783-navigator-serviceWorker.js | Service Worker |
+| 784-navigator-hardwareConcurrency.js | Hardware Concurrency |
+| 785-navigator-deviceMemory.js | Device Memory |
+| 786-navigator-connection.js | Network Information |
+| 787-navigator-sendBeacon.js | Send Beacon |
+| 788-navigator-permissions.js | Permissions API |
+| 789-navigator-credentials.js | Credential Management API |
+| 790-navigator-usb.js | USB API |
 
 
 
