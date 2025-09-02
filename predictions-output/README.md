@@ -796,6 +796,17 @@ This folder contains **prediction-based JS snippets** often asked in interviews.
 | 788-navigator-permissions.js | Permissions API |
 | 789-navigator-credentials.js | Credential Management API |
 | 790-navigator-usb.js | USB API |
+| 791      | symmetric-difference.js | Find elements unique to each set.                     |
+| 792      | subset-check.js        | Verify if all elements of one set exist in another.    |
+| 793      | superset-check.js      | Confirm one set contains another.                     |
+| 794      | disjoint-sets.js       | Ensure two sets share no elements.                    |
+| 795      | power-set.js           | Generate all possible subsets.                        |
+| 796      | cartesian-product.js   | All ordered pairs between two sets.                   |
+| 797      | remove-duplicates.js   | Use Set to deduplicate an array.                      |
+| 798      | frequency-counter.js   | Count occurrences of words in text.                   |
+| 799      | unique-strings.js      | Check if string has all unique chars.                 |
+| 800      | unique-objects.js      | Deduplicate objects by property (e.g., id).           |
+
 
 
 
