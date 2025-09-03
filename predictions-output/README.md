@@ -806,8 +806,16 @@ This folder contains **prediction-based JS snippets** often asked in interviews.
 | 798      | frequency-counter.js   | Count occurrences of words in text.                   |
 | 799      | unique-strings.js      | Check if string has all unique chars.                 |
 | 800      | unique-objects.js      | Deduplicate objects by property (e.g., id).           |
-
-
+| 801      | union-multiple-sets.js    | Merge multiple sets into one.                 |
+| 802      | intersection-multiple-sets.js | Get common elements across many sets.      |
+| 803      | symmetric-diff-multiple.js| Elements appearing in odd number of sets.     |
+| 804      | set-from-string.js        | Get unique characters from a string.          |
+| 805      | set-to-string.js          | Convert set back to string.                   |
+| 806      | set-to-array.js           | Convert set into array.                       |
+| 807      | array-to-set.js           | Convert array into set.                       |
+| 808      | clone-set.js              | Duplicate a set.                              |
+| 809      | compare-sets.js           | Check if two sets are equal.                  |
+| 810      | merge-sets-array.js       | Merge multiple sets into single array.        |
 
 
 ## 🧠 How to Use
