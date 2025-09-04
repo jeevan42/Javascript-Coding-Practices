@@ -816,6 +816,16 @@ This folder contains **prediction-based JS snippets** often asked in interviews.
 | 808      | clone-set.js              | Duplicate a set.                              |
 | 809      | compare-sets.js           | Check if two sets are equal.                  |
 | 810      | merge-sets-array.js       | Merge multiple sets into single array.        |
+| 811      | remove-words.js           | Remove banned words from text.                |
+| 812      | unique-subarrays.js       | Remove duplicate subarrays.                   |
+| 813      | unique-pairs.js           | Store unique pairs of numbers.                |
+| 814      | filter-set.js             | Keep only even numbers from set.              |
+| 815      | map-set.js                | Apply function to each element in set.        |
+| 816      | reduce-set.js             | Reduce set to single value (e.g., sum).       |
+| 817      | set-union-strings.js      | Merge sets of characters.                     |
+| 818      | count-unique-words.js     | Count number of unique words in text.         |
+| 819      | remove-falsy.js           | Remove falsy values from set.                 |
+| 820      | set-operations-lib.js     | Common set operations library (union, etc).   |
 
 
 ## 🧠 How to Use
