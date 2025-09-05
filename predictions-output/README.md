@@ -826,6 +826,16 @@ This folder contains **prediction-based JS snippets** often asked in interviews.
 | 818      | count-unique-words.js     | Count number of unique words in text.         |
 | 819      | remove-falsy.js           | Remove falsy values from set.                 |
 | 820      | set-operations-lib.js     | Common set operations library (union, etc).   |
+| 821      | unique-emails.js              | Normalize emails and count unique ones.           |
+| 822      | intersection-size.js          | Find number of common elements in two sets.       |
+| 823      | difference-size.js            | Find size of difference set.                      |
+| 824      | union-size.js                 | Count total unique elements across sets.          |
+| 825      | is-empty-set.js               | Verify if a set is empty.                         |
+| 826      | clear-set.js                  | Remove all elements from a set.                   |
+| 827      | set-vs-array-lookup.js        | Compare lookup performance.                       |
+| 828      | union-all.js                  | Union operation on array of sets.                 |
+| 829      | find-missing.js               | Identify missing elements from a range.           |
+| 830      | intersection-all.js           | Find common elements across multiple sets.        |
 
 
 ## 🧠 How to Use
