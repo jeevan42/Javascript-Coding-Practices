@@ -796,46 +796,56 @@ This folder contains **prediction-based JS snippets** often asked in interviews.
 | 788-navigator-permissions.js | Permissions API |
 | 789-navigator-credentials.js | Credential Management API |
 | 790-navigator-usb.js | USB API |
-| 791      | symmetric-difference.js | Find elements unique to each set.                     |
-| 792      | subset-check.js        | Verify if all elements of one set exist in another.    |
-| 793      | superset-check.js      | Confirm one set contains another.                     |
-| 794      | disjoint-sets.js       | Ensure two sets share no elements.                    |
-| 795      | power-set.js           | Generate all possible subsets.                        |
-| 796      | cartesian-product.js   | All ordered pairs between two sets.                   |
-| 797      | remove-duplicates.js   | Use Set to deduplicate an array.                      |
-| 798      | frequency-counter.js   | Count occurrences of words in text.                   |
-| 799      | unique-strings.js      | Check if string has all unique chars.                 |
-| 800      | unique-objects.js      | Deduplicate objects by property (e.g., id).           |
-| 801      | union-multiple-sets.js    | Merge multiple sets into one.                 |
-| 802      | intersection-multiple-sets.js | Get common elements across many sets.      |
-| 803      | symmetric-diff-multiple.js| Elements appearing in odd number of sets.     |
-| 804      | set-from-string.js        | Get unique characters from a string.          |
-| 805      | set-to-string.js          | Convert set back to string.                   |
-| 806      | set-to-array.js           | Convert set into array.                       |
-| 807      | array-to-set.js           | Convert array into set.                       |
-| 808      | clone-set.js              | Duplicate a set.                              |
-| 809      | compare-sets.js           | Check if two sets are equal.                  |
-| 810      | merge-sets-array.js       | Merge multiple sets into single array.        |
-| 811      | remove-words.js           | Remove banned words from text.                |
-| 812      | unique-subarrays.js       | Remove duplicate subarrays.                   |
-| 813      | unique-pairs.js           | Store unique pairs of numbers.                |
-| 814      | filter-set.js             | Keep only even numbers from set.              |
-| 815      | map-set.js                | Apply function to each element in set.        |
-| 816      | reduce-set.js             | Reduce set to single value (e.g., sum).       |
-| 817      | set-union-strings.js      | Merge sets of characters.                     |
-| 818      | count-unique-words.js     | Count number of unique words in text.         |
-| 819      | remove-falsy.js           | Remove falsy values from set.                 |
-| 820      | set-operations-lib.js     | Common set operations library (union, etc).   |
-| 821      | unique-emails.js              | Normalize emails and count unique ones.           |
-| 822      | intersection-size.js          | Find number of common elements in two sets.       |
-| 823      | difference-size.js            | Find size of difference set.                      |
-| 824      | union-size.js                 | Count total unique elements across sets.          |
-| 825      | is-empty-set.js               | Verify if a set is empty.                         |
-| 826      | clear-set.js                  | Remove all elements from a set.                   |
-| 827      | set-vs-array-lookup.js        | Compare lookup performance.                       |
-| 828      | union-all.js                  | Union operation on array of sets.                 |
-| 829      | find-missing.js               | Identify missing elements from a range.           |
-| 830      | intersection-all.js           | Find common elements across multiple sets.        |
+| 791-symmetric-difference.js | Find elements unique to each set.                     |
+| 792-subset-check.js        | Verify if all elements of one set exist in another.    |
+| 793-superset-check.js | Confirm one set contains another. |
+| 794-disjoint-sets.js | Ensure two sets share no elements. |
+| 795-power-set.js | Generate all possible subsets. |
+| 796-cartesian-product.js | All ordered pairs between two sets. |
+| 797-remove-duplicates.js | Use Set to deduplicate an array. |
+| 798-frequency-counter.js | Count occurrences of words in text. |
+| 799-unique-strings.js | Check if string has all unique chars. |
+| 800-unique-objects.js | Deduplicate objects by property (e.g., id). |
+| 801-union-multiple-sets.js | Merge multiple sets into one. |
+| 802-intersection-multiple-sets.js | Get common elements across many sets. |
+| 803-symmetric-diff-multiple.js | Elements appearing in odd number of sets. |
+| 804-set-from-string.js | Get unique characters from a string. |
+| 805-set-to-string.js | Convert set back to string. |
+| 806-set-to-array.js | Convert set into array. |
+| 807-array-to-set.js | Convert array into set. |
+| 808-clone-set.js | Duplicate a set. |
+| 809-compare-sets.js | Check if two sets are equal. |
+| 810-merge-sets-array.js | Merge multiple sets into single array. |
+| 811-remove-words.js | Remove banned words from text. |
+| 812-unique-subarrays.js | Remove duplicate subarrays. |
+| 813-unique-pairs.js | Store unique pairs of numbers. |
+| 814-filter-set.js | Keep only even numbers from set. |
+| 815-map-set.js | Apply function to each element in set. |
+| 816-reduce-set.js | Reduce set to single value (e.g., sum). |
+| 817-set-union-strings.js | Merge sets of characters. |
+| 818-count-unique-words.js | Count number of unique words in text. |
+| 819-remove-falsy.js | Remove falsy values from set. |
+| 820-set-operations-lib.js | Common set operations library (union, etc). |
+| 821-unique-emails.js | Normalize emails and count unique ones. |
+| 822-intersection-size.js | Find number of common elements in two sets. |
+| 823-difference-size.js | Find size of difference set. |
+| 824-union-size.js | Count total unique elements across sets. |
+| 825-is-empty-set.js | Verify if a set is empty. |
+| 826-clear-set.js | Remove all elements from a set. |
+| 827-set-vs-array-lookup.js | Compare lookup performance. |
+| 828-union-all.js | Union operation on array of sets. |
+| 829-find-missing.js | Identify missing elements from a range. |
+| 830-intersection-all.js | Find common elements across multiple sets. |
+| 831-set-difference-multiple.js | Remove elements of all other sets from first. |
+| 832-symmetric-diff-size.js | Count unique elements in symmetric difference. |
+| 833-unique-ids.js | Extract unique ids from objects array. |
+| 834-track-visits.js | Track visited pages using Set. |
+| 835-remove-chars.js | Remove unwanted chars from string. |
+| 836-unique-nums-range.js | Count unique nums in given range. |
+| 837-check-palindrome-permutation.js| Check if string can be rearranged into palindrome. |
+| 838-first-duplicate.js | Find first duplicate element in array. |
+| 839-longest-unique-substring.js | Find length of longest substring without repeats. |
+| 840-unique-pairs-sum.js | Find unique pairs with target sum. |
 
 
 ## 🧠 How to Use
