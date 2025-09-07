@@ -856,6 +856,17 @@ This folder contains **prediction-based JS snippets** often asked in interviews.
 | 848-map-to-set.js               | Convert Map into Set.                         |
 | 849-set-group-by-length.js      | Group strings by length using Set + Map.      |
 | 850-set-performance-large.js    | Performance comparison: Set vs Array lookup.  |
+| 851-set-union-n-sets.js         | Union of N sets efficiently.                  |
+| 852-set-cartesian-multi.js      | Cartesian product of multiple sets.           |
+| 853-set-combinations-k.js       | Generate k-combinations from Set.             |
+| 854-set-permutations.js         | Generate permutations of Set elements.        |
+| 855-set-power-recursive.js      | Recursive power set generation.               |
+| 856-set-unique-subarrays.js     | Deduplicate array of arrays using Set.        |
+| 857-set-anagrams.js             | Group words that are anagrams.                |
+| 858-set-unique-pairs.js         | Store unique pairs using Set.                 |
+| 859-set-of-sets.js              | Nesting Sets inside another Set.              |
+| 860-set-equality-check.js       | Check equality between two Sets.              |
+
 
 
 
