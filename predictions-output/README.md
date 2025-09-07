@@ -845,7 +845,18 @@ This folder contains **prediction-based JS snippets** often asked in interviews.
 | 837-check-palindrome-permutation.js| Check if string can be rearranged into palindrome. |
 | 838-first-duplicate.js | Find first duplicate element in array. |
 | 839-longest-unique-substring.js | Find length of longest substring without repeats. |
-| 840-unique-pairs-sum.js | Find unique pairs with target sum. |
+| 840-unique-pairs-sum.js | Find unique pairs with target sum. |                           
+| 841-set-to-json.js              | Convert Set to JSON string.                   |
+| 842-json-to-set.js              | Convert JSON string back to Set.              |
+| 843-set-union-function.js       | Reusable union function for Sets.             |
+| 844-set-intersection-function.js| Reusable intersection function for Sets.      |
+| 845-set-difference-function.js  | Reusable difference function for Sets.        |
+| 846-symmetric-diff-function.js  | Symmetric difference utility.                 |
+| 847-set-to-map.js               | Convert Set into Map.                         |
+| 848-map-to-set.js               | Convert Map into Set.                         |
+| 849-set-group-by-length.js      | Group strings by length using Set + Map.      |
+| 850-set-performance-large.js    | Performance comparison: Set vs Array lookup.  |
+
 
 
 ## 🧠 How to Use
