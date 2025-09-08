@@ -866,6 +866,16 @@ This folder contains **prediction-based JS snippets** often asked in interviews.
 | 858-set-unique-pairs.js         | Store unique pairs using Set.                 |
 | 859-set-of-sets.js              | Nesting Sets inside another Set.              |
 | 860-set-equality-check.js       | Check equality between two Sets.              |
+| 861-set-to-linkedlist.js        | Convert Set to Linked List.                   |
+| 862-linkedlist-to-set.js        | Convert Linked List to Set.                   |
+| 863-set-union-performance.js    | Benchmark union performance on large Sets.    |
+| 864-set-vs-object-keys.js       | Compare Set with Object keys usage.           |
+| 865-set-intersection-large.js   | Optimize intersection for large datasets.     |
+| 866-set-difference-large.js     | Efficient difference for large datasets.      |
+| 867-set-union-vs-concat.js      | Use concat + Set for quick union.             |
+| 868-set-to-binarytree.js        | Convert Set to Binary Search Tree.            |
+| 869-binarytree-to-set.js        | Convert Binary Search Tree back to Set.       |
+| 870-set-symmetric-multi.js      | Symmetric difference across multiple Sets.    |
 
 
 
