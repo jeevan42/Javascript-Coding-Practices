@@ -876,6 +876,16 @@ This folder contains **prediction-based JS snippets** often asked in interviews.
 | 868-set-to-binarytree.js        | Convert Set to Binary Search Tree.            |
 | 869-binarytree-to-set.js        | Convert Binary Search Tree back to Set.       |
 | 870-set-symmetric-multi.js      | Symmetric difference across multiple Sets.    |
+| 871-set-random-element.js       | Pick a random element from Set.               |
+| 872-set-shuffle.js              | Shuffle elements of a Set.                    |
+| 873-set-union-stream.js         | Union of streaming data using Set.            |
+| 874-set-memory-usage.js         | Measure memory usage of Set.                  |
+| 875-set-vs-array-memory.js      | Compare memory of Set vs Array.               |
+| 876-set-benchmark-add.js        | Benchmark performance of Set add().           |
+| 877-set-benchmark-has.js        | Benchmark performance of Set has().           |
+| 878-set-benchmark-delete.js     | Benchmark performance of Set delete().        |
+| 879-set-size-vs-length.js       | Understand size vs length in Set.             |
+| 880-set-clear.js                | Clear all elements from a Set.                |
 
 
 
