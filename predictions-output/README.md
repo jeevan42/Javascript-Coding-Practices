@@ -886,6 +886,16 @@ This folder contains **prediction-based JS snippets** often asked in interviews.
 | 878-set-benchmark-delete.js     | Benchmark performance of Set delete().        |
 | 879-set-size-vs-length.js       | Understand size vs length in Set.             |
 | 880-set-clear.js                | Clear all elements from a Set.                |
+| 881-set-union-multiple.js       | Union of multiple Sets.                       |
+| 882-set-intersection-multiple.js| Intersection across multiple Sets.            |
+| 883-symmetric-difference-multiple.js | Symmetric difference across multiple Sets.|
+| 884-subset-strict.js            | Strict subset check.                          |
+| 885-superset-strict.js          | Strict superset check.                        |
+| 886-set-to-array.js             | Convert Set to Array.                         |
+| 887-array-to-set.js             | Convert Array to Set.                         |
+| 888-set-to-json.js              | Convert Set to JSON.                          |
+| 889-json-to-set.js              | Convert JSON to Set.                          |
+| 890-set-shallow-copy.js         | Shallow copy of a Set.                        |
 
 
 
