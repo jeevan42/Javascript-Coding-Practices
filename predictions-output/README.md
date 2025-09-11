@@ -896,6 +896,16 @@ This folder contains **prediction-based JS snippets** often asked in interviews.
 | 888-set-to-json.js              | Convert Set to JSON.                          |
 | 889-json-to-set.js              | Convert JSON to Set.                          |
 | 890-set-shallow-copy.js         | Shallow copy of a Set.                        |
+| 891-set-deep-copy.js            | Deep copy of a Set.                           |
+| 892-set-difference.js           | Difference between two Sets.                  |
+| 893-set-symmetric-difference.js | Symmetric difference between two Sets.        |
+| 894-set-equality.js             | Equality check between two Sets.              |
+| 895-set-is-empty.js             | Check if a Set is empty.                      |
+| 896-set-size-limit.js           | Enforce size limit on a Set.                  |
+| 897-set-random-element.js       | Pick random element from a Set.               |
+| 898-set-clear.js                | Clear all elements from a Set.                |
+| 899-set-for-each.js             | Iterate using forEach on Set.                 |
+| 900-set-iteration.js            | Iterate through Set values with for...of.     |
 
 
 
