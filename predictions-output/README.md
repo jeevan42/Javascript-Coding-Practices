@@ -906,7 +906,17 @@ This folder contains **prediction-based JS snippets** often asked in interviews.
 | 898-set-clear.js                | Clear all elements from a Set.                |
 | 899-set-for-each.js             | Iterate using forEach on Set.                 |
 | 900-set-iteration.js            | Iterate through Set values with for...of.     |
-
+| 901-set-union-vs-concat.js       | Compare Set union with array concat.           |
+| 902-set-from-string.js           | Remove duplicate characters from string.       |
+| 903-set-to-string.js             | Convert Set of chars to string.                |
+| 904-set-to-map.js                | Convert Set into Map.                          |
+| 905-map-to-set.js                | Convert Map into Set.                          |
+| 906-set-math-union.js            | Implement union operation.                     |
+| 907-set-math-intersection.js     | Implement intersection operation.              |
+| 908-set-math-difference.js       | Implement difference operation.                |
+| 909-set-math-symmetric.js        | Implement symmetric difference operation.      |
+| 910-set-to-object.js             | Convert Set to plain object.                   |
+    
 
 
 
