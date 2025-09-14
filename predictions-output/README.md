@@ -916,8 +916,16 @@ This folder contains **prediction-based JS snippets** often asked in interviews.
 | 908-set-math-difference.js       | Implement difference operation.                |
 | 909-set-math-symmetric.js        | Implement symmetric difference operation.      |
 | 910-set-to-object.js             | Convert Set to plain object.                   |
-    
-
+| 911-object-to-set.js             | Convert object keys into Set.                  |
+| 912-set-union-performance.js     | Performance test of union.                     |
+| 913-set-memory-usage.js          | Memory usage with Set.                         |
+| 914-set-vs-array-includes.js     | Performance of Set.has vs Array.includes.      |
+| 915-set-unique-words.js          | Count unique words in text.                    |
+| 916-set-anagram-check.js         | Basic anagram check using Set.                 |
+| 917-set-palindrome-check.js      | Check if string can form palindrome.           |
+| 918-set-vowels-count.js          | Count distinct vowels in string.               |
+| 919-set-subsequence-check.js     | Check if string is subsequence of another.     |
+| 920-set-duplicates-detect.js     | Detect duplicates in array using Set.          |
 
 
 ## 🧠 How to Use
