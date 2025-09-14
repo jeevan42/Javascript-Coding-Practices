@@ -926,7 +926,16 @@ This folder contains **prediction-based JS snippets** often asked in interviews.
 | 918-set-vowels-count.js          | Count distinct vowels in string.               |
 | 919-set-subsequence-check.js     | Check if string is subsequence of another.     |
 | 920-set-duplicates-detect.js     | Detect duplicates in array using Set.          |
-
+| 921-set-random-sample.js        | Pick a random element from a Set.              |
+| 922-set-union-multiple.js       | Find union of multiple Sets.                   |
+| 923-set-intersection-multiple.js| Find intersection across multiple Sets.        |
+| 924-set-difference-multiple.js  | Subtract multiple Sets from one.               |
+| 925-set-to-json.js              | Serialize a Set to JSON.                       |
+| 926-json-to-set.js              | Deserialize JSON into a Set.                   |
+| 927-set-symmetric-multiple.js   | Symmetric difference of multiple Sets.         |
+| 928-set-unique-pairs.js         | Generate unique element pairs.                 |
+| 929-set-permutations.js         | Generate permutations from Set values.         |
+| 930-set-combinations.js         | Generate combinations from Set values.         |
 
 ## 🧠 How to Use
 
