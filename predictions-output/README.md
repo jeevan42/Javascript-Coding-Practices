@@ -936,6 +936,17 @@ This folder contains **prediction-based JS snippets** often asked in interviews.
 | 928-set-unique-pairs.js         | Generate unique element pairs.                 |
 | 929-set-permutations.js         | Generate permutations from Set values.         |
 | 930-set-combinations.js         | Generate combinations from Set values.         |
+| 931-set-union-objects.js        | Union of object Sets by unique key.            |
+| 932-set-intersection-objects.js | Intersection of object Sets by key.            |
+| 933-set-difference-objects.js   | Difference of object Sets by key.              |
+| 934-set-cartesian-objects.js    | Cartesian product of object Sets.              |
+| 935-set-group-by-property.js    | Group objects by property using Sets.          |
+| 936-set-unique-by-multiple.js   | Deduplicate objects by multiple keys.          |
+| 937-set-cache-example.js        | Cache implementation using Set.                |
+| 938-set-permissions-check.js    | Permission checks with Sets.                   |
+| 939-set-tags-search.js          | Tag-based search using Sets.                   |
+| 940-set-rate-limiter.js         | Simple rate limiter using Sets.                |
+
 
 ## 🧠 How to Use
 
