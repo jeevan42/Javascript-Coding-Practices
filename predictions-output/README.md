@@ -946,6 +946,16 @@ This folder contains **prediction-based JS snippets** often asked in interviews.
 | 938-set-permissions-check.js    | Permission checks with Sets.                   |
 | 939-set-tags-search.js          | Tag-based search using Sets.                   |
 | 940-set-rate-limiter.js         | Simple rate limiter using Sets.                |
+| 941-set-active-sessions.js   | Track active sessions with Set.              |
+| 942-set-online-users.js      | Track online users in real-time.             |
+| 943-set-websocket-clients.js | Manage WebSocket clients.                    |
+| 944-set-notification-tracking.js | Prevent duplicate notifications.        |
+| 945-set-unique-tokens.js     | Ensure tokens are unique.                    |
+| 946-set-session-timeout.js   | Expire sessions with timeout.                |
+| 947-set-message-ids.js       | Deduplicate chat messages.                   |
+| 948-set-unique-visitors.js   | Count unique visitors by IP.                 |
+| 949-set-feature-flags.js     | Manage feature flags with Set.               |
+| 950-set-api-keys.js          | Track valid API keys.                        |
 
 
 ## 🧠 How to Use
