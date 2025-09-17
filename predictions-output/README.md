@@ -956,6 +956,17 @@ This folder contains **prediction-based JS snippets** often asked in interviews.
 | 948-set-unique-visitors.js   | Count unique visitors by IP.                 |
 | 949-set-feature-flags.js     | Manage feature flags with Set.               |
 | 950-set-api-keys.js          | Track valid API keys.                        |
+| 951-set-room-members.js      | Manage chat room members.                    |
+| 952-set-cart-items.js        | Shopping cart without duplicates.            |
+| 953-set-unique-likes.js      | Enforce unique likes.                        |
+| 954-set-job-queue.js         | Ensure jobs run only once.                   |
+| 955-set-temp-block.js        | Temporary blocklist with auto-expiry.        |
+| 956-set-batch-processing.js  | Batch items before processing.               |
+| 957-set-search-history.js    | Store unique search terms.                   |
+| 958-set-real-time-rooms.js   | Manage game rooms with Map+Set.              |
+| 959-set-pending-friends.js   | Track pending friend requests.               |
+| 960-set-export-to-json.js    | Export Set to JSON format.                   |
+
 
 
 ## 🧠 How to Use
