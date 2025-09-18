@@ -966,7 +966,16 @@ This folder contains **prediction-based JS snippets** often asked in interviews.
 | 958-set-real-time-rooms.js   | Manage game rooms with Map+Set.              |
 | 959-set-pending-friends.js   | Track pending friend requests.               |
 | 960-set-export-to-json.js    | Export Set to JSON format.                   |
-
+| 961-set-caching.js         | Cache API request IDs to prevent repeats.      |
+| 962-set-throttling.js      | Throttle user actions using Set.               |
+| 963-set-event-tracking.js  | Track events once per session.                 |
+| 964-set-dns-cache.js       | Simple DNS cache with Set.                     |
+| 965-set-tagging-system.js  | Maintain unique tags for articles.             |
+| 966-set-unique-orders.js   | Avoid duplicate order processing.              |
+| 967-set-auto-cleanup.js    | Auto-expire temporary items.                   |
+| 968-set-invite-codes.js    | One-time invite code redemption.               |
+| 969-set-feature-access.js  | Manage feature access rights.                  |
+| 970-set-unique-emails.js   | Store unique email addresses.                  |
 
 
 ## 🧠 How to Use
